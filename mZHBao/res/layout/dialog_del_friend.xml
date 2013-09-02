@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/BodyBg" >
+    <TableRow >
+        <TextView 
+             android:text="@string/delFriTitle"
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:layout_marginLeft="@dimen/delFriMarginLeft"/>               
+    </TableRow>
+    <TableRow >
+    	<TextView 
+            android:id="@+id/delname"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="@dimen/delFriMarginLeft"/>               
+    </TableRow>
+    <TableRow 
+        >
+    	<CheckBox 
+	        android:checked="true"
+	        android:id="@+id/delCheckBox"
+	        android:text="@string/delFriBoth"
+	        android:textSize="@dimen/delBothTextSize"/>                   
+    </TableRow>
+</TableLayout>
+

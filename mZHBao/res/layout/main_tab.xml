@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost 
+	    xmlns:android="http://schemas.android.com/apk/res/android" 
+	    android:id="@android:id/tabhost"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+	<RelativeLayout
+    	android:orientation="vertical"
+   	    android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+         android:background="@color/BodyBg">
+	    <FrameLayout
+	        android:id="@android:id/tabcontent"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" 
+	        android:layout_above="@android:id/tabs"
+	        >
+	
+	        <LinearLayout
+	            android:id="@+id/tab1"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:orientation="horizontal" >
+	            
+	        </LinearLayout>
+	
+	        <LinearLayout
+	            android:id="@+id/tab2"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:orientation="horizontal" >
+	        </LinearLayout>
+	
+	        <LinearLayout
+	            android:id="@+id/tab3"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:orientation="horizontal" >
+	        </LinearLayout>
+
+	        <LinearLayout
+	            android:id="@+id/tab4"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:orientation="horizontal" >
+	        </LinearLayout>
+
+	    </FrameLayout>
+	
+	    <RelativeLayout
+	        android:id="@+id/tabBottom"
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/headHeight"
+	        android:background="@drawable/title_bar"
+	        android:layout_alignParentBottom="true">
+
+		    <TabWidget
+		        android:id="@android:id/tabs"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentBottom="true"
+		        android:gravity="fill_horizontal|center_vertical"
+		        >
+
+		    </TabWidget>
+
+	    </RelativeLayout>
+	 </RelativeLayout>
+	
+</TabHost>

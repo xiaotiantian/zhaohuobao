@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="selectPlace">16sp</dimen>
+    <dimen name="Province">20sp</dimen>
+    <dimen name="cityHeadSize">20dp</dimen>
+    <dimen name="cityItemHeight">50dp</dimen>
+    <dimen name="citySize">22dp</dimen>
+    <dimen name="cityWidth">0dp</dimen>
+    <dimen name="areaWidth">50dp</dimen>
+    <dimen name="areaHeight">35dp</dimen>
+    <dimen name="btTitleSize">40dp</dimen>
+    <dimen name="mText">25sp</dimen>
+    <dimen name="MsgNbr">12sp</dimen>
+    <dimen name="GoodsTitleHeight">30dp</dimen>
+    <dimen name="ProvinceHeight">33dp</dimen>
+    <dimen name="ProvinceWidth">66dp</dimen>
+    <dimen name="cornerNumSize">12sp</dimen>
+    <dimen name="SelectMarginTop">30dp</dimen>
+    
+    <dimen name="headHeight">50dp</dimen>
+    <dimen name="headCenterTextSize">20sp</dimen>
+    <dimen name="headEdgeTextSize">14sp</dimen>
+    <dimen name="headEdgeWidth">70dp</dimen>
+    <dimen name="headEdgePadding">10dp</dimen>
+    <dimen name="headEdgeMargin">10dp</dimen>
+    
+    <dimen name="searchEditSize">35dp</dimen>
+    <dimen name="searchEditMarginLeft">5dp</dimen>
+    <dimen name="searchEditMarginRight">5dp</dimen>
+    <dimen name="searchEditMarginTop">15dp</dimen>
+    <dimen name="searchResultMarginLeft">5dp</dimen>
+    <dimen name="searchResultMarginRight">5dp</dimen>
+    <dimen name="searchResultMarginTop">5dp</dimen>
+    
+    <dimen name="sureTextSize">20sp</dimen>
+    
+    <dimen name="moodTextSize">12sp</dimen>
+    <dimen name="nicknameTextSize">16sp</dimen>
+    <dimen name="groupTextSize">16sp</dimen>
+    <dimen name="groupMarginLeft">10dip</dimen>
+    
+    <dimen name="chatBottomMargin">10dp</dimen>
+    <dimen name="chatBottomEditSize">18sp</dimen>
+    <dimen name="chatBottomBtnWidth">50dp</dimen>
+    <dimen name="chatBottomBtnHeight">45dp</dimen>
+    <dimen name="chatMsgSize">15sp</dimen>
+    <dimen name="chatDateMargin">5dp</dimen>
+    <dimen name="chatUsrMargin">15dp</dimen>
+    <dimen name="chatMsgPaddingBottom">3dp</dimen>
+    <dimen name="chatMsgPaddingTop">3dp</dimen>
+    <dimen name="chatMsgMargin">5dp</dimen>
+    <dimen name="chatPicMargin">1dp</dimen>
+    <dimen name="chatMsgMaxWidth">250sp</dimen>
+    <dimen name="chatPicMaxWidth">120sp</dimen>
+    <dimen name="chatPicMaxHeight">120sp</dimen>
+    <dimen name="delBothTextSize">14dp</dimen>
+    <dimen name="delFriMarginLeft">20dp</dimen>
+    
+    <dimen name="UsrPhotoWidth">80dp</dimen>
+    <dimen name="UsrPhotoHeight">80dp</dimen>
+    <dimen name="UsrItemPadding">8dp</dimen>
+    <dimen name="UsrItemSize">17sp</dimen>
+    <dimen name="vehicleStatusWidth">60dp</dimen>
+    <dimen name="vehicleStatusHeight">40dp</dimen>
+    <dimen name="huoxiangWidth">138dp</dimen>    
+    <dimen name="huoxiangHeight">42dp</dimen>
+    <dimen name="ListPhotoSize">40dp</dimen>
+    <dimen name="ListMargin">5dp</dimen>
+    <dimen name="ListSingleMargin">10dp</dimen><!-- 双倍ListMargin -->
+    <dimen name="ListCenterMargin">7dp</dimen>
+    <dimen name="ListCenterPadding">7dp</dimen>
+    <dimen name="ListPadding">5dp</dimen>
+    <dimen name="ListItemHeight">60dp</dimen>
+     
+    <dimen name="verifyEditWidth">200dp</dimen>
+    <dimen name="verifyMarginTop">40dp</dimen>
+    <dimen name="verifyTextSize">30dp</dimen>
+    <dimen name="verifyBottomTop">20dp</dimen>
+    
+    <dimen name="readAndAgreed">14sp</dimen>
+    <dimen name="moreInfoHeight">45dp</dimen>
+    <dimen name="moreInfoTextSize">22sp</dimen>
+    <dimen name="fenxiangTextSize">20sp</dimen>
+    <dimen name="shareNumSize">18dip</dimen>
+    <dimen name="shareMsgInfoSize">22dip</dimen>
+    <dimen name="shareDateSize">15dip</dimen>
+    <dimen name="sharePadding">5dip</dimen>
+    
+    <dimen name="progressWidth">33dip</dimen>
+    <dimen name="splashImageSize">120dp</dimen>
+    <dimen name="splashAppnameSize">40dp</dimen>
+    <dimen name="splashStartSize">5dip</dimen>
+    
+    <dimen name="dialogWidth">280dp</dimen>
+    <dimen name="dialogTitleSize">20sp</dimen>
+    <dimen name="dialogTitlePadding">5dp</dimen>
+    <dimen name="dialogContentSize">16sp</dimen>
+    <dimen name="dialogTitleMarginTop">4dp</dimen>
+    <dimen name="dialogContentMarginTop">1dp</dimen>
+    <dimen name="dialogPadding">10dp</dimen>
+    <dimen name="dialogBtnWidth">110dp</dimen>
+    <dimen name="dialogMarginCenter">10dp</dimen>
+    <dimen name="dialogLayoutMarginTop">40dp</dimen>
+    <dimen name="dialogLayoutMarginBottom">5dp</dimen>
+    <dimen name="dialogInputMarginCenter">5dp</dimen>
+    <dimen name="dialogInputMarginEdge">10dp</dimen>
+    <dimen name="dialogInputMarginTop">15dp</dimen>
+    <dimen name="dialogInputBottomTop">10dp</dimen>
+    <dimen name="dialogdrawablePadding">100sp</dimen>
+    
+   
+    
+</resources>

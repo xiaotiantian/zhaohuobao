@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:clickable="true"
+    
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/msg_incoming"
+	    android:layout_gravity="left"
+	   >
+	   <ImageView 
+	       android:id="@+id/formclient_row_voice_in"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="@dimen/chatMsgMargin"
+	        android:src="@drawable/voice_in3" 
+	        android:layout_centerInParent="true"
+	        android:scaleType="centerInside"
+	        >
+	   </ImageView>
+	</RelativeLayout>
+</LinearLayout>

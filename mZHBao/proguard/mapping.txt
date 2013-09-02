@@ -1,0 +1,1540 @@
+com.bfz.tools.LBS -> com.bfz.a.a:
+    android.content.Context context -> b
+    java.lang.String lng -> c
+    java.lang.String lat -> d
+    java.lang.String sheng -> e
+    java.lang.String shi -> f
+    int mCellId -> a
+    void init() -> e
+    java.lang.String GetJson(java.util.ArrayList) -> a
+    java.lang.String getSheng() -> a
+    java.lang.String getShi() -> b
+    java.lang.String getLng() -> c
+    java.lang.String getLat() -> d
+    org.apache.harmony.javax.security.sasl.SaslClient createSaslClient(java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.util.Map,org.apache.harmony.javax.security.auth.callback.CallbackHandler) -> a
+    java.lang.String decode(java.lang.String,java.lang.String) -> a
+    byte[] decode(byte[]) -> a
+    void copy(java.io.InputStream,java.io.OutputStream) -> a
+com.bfz.tools.LBS$CellIDInfo -> com.bfz.a.b:
+    int cellId -> a
+    java.lang.String mobileCountryCode -> b
+    java.lang.String mobileNetworkCode -> c
+    int locationAreaCode -> d
+    java.lang.String radioType -> e
+com.bfz.tools.SysConfig -> com.bfz.a.c:
+    java.lang.String updateUrl -> a
+    java.lang.String updateUrlTest -> b
+    java.lang.String ActionUrl -> g
+    java.lang.String asyncMsgsNumUtl -> c
+    java.lang.String spCode -> d
+    java.lang.String msgServerIp -> h
+    int msgServerPort -> i
+    com.bfz.tools.SysConfig config -> j
+    java.lang.String fileName -> k
+    boolean isDebug -> l
+    java.lang.String[][] regList -> e
+    java.lang.String[][] googleList -> f
+    com.bfz.tools.SysConfig getInstace() -> a
+    java.lang.String getMsgServerIp() -> b
+    int getMsgServerPort() -> c
+    java.lang.String PostMsg(java.lang.String,java.lang.String,java.lang.String) -> a
+    java.lang.String CalculationTime(java.lang.String) -> a
+    boolean NetWorkStatus(android.content.Context) -> a
+com.bfz.tools.UpdateManager -> com.bfz.a.d:
+    android.content.Context mContext -> a
+    java.lang.String mUpdateUrl -> b
+    int apkVer -> c
+    java.lang.String apkUrl -> d
+    java.lang.String apkMsg -> e
+    java.lang.Boolean hasUpdate -> f
+    java.lang.String savePath -> g
+    android.os.Handler handler -> h
+    void checkUpdate() -> a
+    void downLoadFile() -> b
+    void installApk(java.io.File) -> a
+    android.content.Context access$0() -> c
+    java.lang.Boolean access$1() -> d
+    java.lang.String access$2() -> e
+    java.lang.String access$3() -> f
+    void access$4(com.bfz.tools.UpdateManager,java.lang.String) -> a
+    int access$5(com.bfz.tools.UpdateManager) -> a
+    android.os.Handler access$6(com.bfz.tools.UpdateManager) -> b
+    void access$7(com.bfz.tools.UpdateManager,int) -> a
+    void access$8(java.lang.String) -> a
+    void access$9(java.lang.String) -> b
+    java.lang.String access$10() -> g
+    java.io.File access$11(java.lang.String,android.app.ProgressDialog) -> a
+com.bfz.tools.UpdateManager$1 -> com.bfz.a.e:
+    com.bfz.tools.UpdateManager this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+    com.bfz.tools.UpdateManager access$0(com.bfz.tools.UpdateManager$1) -> a
+com.bfz.tools.UpdateManager$1$1 -> com.bfz.a.f:
+    com.bfz.tools.UpdateManager$1 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.bfz.tools.UpdateManager$1$2 -> com.bfz.a.g:
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.bfz.tools.UpdateManager$2 -> com.bfz.a.h:
+    com.bfz.tools.UpdateManager this$0 -> a
+    void run() -> run
+com.bfz.tools.UpdateManager$3 -> com.bfz.a.i:
+    com.bfz.tools.UpdateManager this$0 -> a
+    void end(java.lang.String) -> end
+com.bfz.tools.UpdateManager$4 -> com.bfz.a.j:
+    void end(java.lang.String) -> end
+com.bfz.tools.UpdateManager$5 -> com.bfz.a.k:
+    void end(java.lang.String) -> end
+com.bfz.tools.UpdateManager$6 -> com.bfz.a.l:
+    com.bfz.tools.UpdateManager this$0 -> a
+    android.app.ProgressDialog val$pDialog -> b
+    void run() -> run
+com.bfz.zhbao.ActivityInfo -> com.bfz.zhbao.ActivityInfo:
+    java.util.ArrayList itemList -> a
+    android.os.Handler handler -> d
+    java.lang.String uImsi -> e
+    int uLevel -> f
+    java.lang.String sSheng -> g
+    java.lang.String sShi -> h
+    java.lang.String toReg -> i
+    java.lang.String toCity -> j
+    android.widget.Button btPrice -> k
+    android.widget.Button btTime -> l
+    android.widget.Button btCity -> m
+    android.widget.ListView lv -> n
+    android.view.View loadMoreView -> o
+    android.widget.Button loadMoreButton -> p
+    com.bfz.zhbao.ActivityInfo$MyAdapter mSimpleAdapter -> q
+    android.app.ProgressDialog mpDialog -> r
+    int addList -> s
+    java.lang.Runnable runnableUi -> b
+    java.lang.Runnable runnable -> c
+    void onNewIntent(android.content.Intent) -> onNewIntent
+    void onCreate(android.os.Bundle) -> onCreate
+    void onStart() -> onStart
+    int access$0(com.bfz.zhbao.ActivityInfo) -> a
+    java.lang.String access$1(com.bfz.zhbao.ActivityInfo) -> b
+    android.app.ProgressDialog access$2(com.bfz.zhbao.ActivityInfo) -> c
+    void access$3(com.bfz.zhbao.ActivityInfo,com.bfz.zhbao.ActivityInfo$MyAdapter) -> a
+    android.widget.ListView access$4(com.bfz.zhbao.ActivityInfo) -> d
+    com.bfz.zhbao.ActivityInfo$MyAdapter access$5(com.bfz.zhbao.ActivityInfo) -> e
+    void access$6(com.bfz.zhbao.ActivityInfo) -> f
+    android.widget.Button access$7(com.bfz.zhbao.ActivityInfo) -> g
+    int access$8(com.bfz.zhbao.ActivityInfo) -> h
+    android.os.Handler access$9(com.bfz.zhbao.ActivityInfo) -> i
+    int access$10(com.bfz.zhbao.ActivityInfo,java.lang.String) -> a
+    void access$11(com.bfz.zhbao.ActivityInfo,android.app.ProgressDialog) -> a
+    java.lang.String access$12(com.bfz.zhbao.ActivityInfo) -> j
+    void access$13(com.bfz.zhbao.ActivityInfo,java.lang.String) -> b
+    void access$14(com.bfz.zhbao.ActivityInfo,int) -> a
+com.bfz.zhbao.ActivityInfo$1 -> com.bfz.zhbao.a:
+    com.bfz.zhbao.ActivityInfo this$0 -> a
+    void run() -> run
+com.bfz.zhbao.ActivityInfo$2 -> com.bfz.zhbao.b:
+    com.bfz.zhbao.ActivityInfo this$0 -> a
+    void run() -> run
+com.bfz.zhbao.ActivityInfo$3 -> com.bfz.zhbao.c:
+    com.bfz.zhbao.ActivityInfo this$0 -> a
+    java.lang.String val$msg -> b
+    void run() -> run
+com.bfz.zhbao.ActivityInfo$4 -> com.bfz.zhbao.d:
+    com.bfz.zhbao.ActivityInfo this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.bfz.zhbao.ActivityInfo$5 -> com.bfz.zhbao.e:
+    com.bfz.zhbao.ActivityInfo this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.bfz.zhbao.ActivityInfo$6 -> com.bfz.zhbao.f:
+    com.bfz.zhbao.ActivityInfo this$0 -> a
+    void run() -> run
+com.bfz.zhbao.ActivityInfo$7 -> com.bfz.zhbao.g:
+    com.bfz.zhbao.ActivityInfo this$0 -> a
+    void run() -> run
+com.bfz.zhbao.ActivityInfo$8 -> com.bfz.zhbao.h:
+    com.bfz.zhbao.ActivityInfo this$0 -> a
+    java.lang.String val$msg -> b
+    void run() -> run
+com.bfz.zhbao.ActivityInfo$MyAdapter -> com.bfz.zhbao.i:
+    java.util.HashMap map -> a
+    com.bfz.zhbao.ActivityInfo this$0 -> b
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    boolean isEnabled(int) -> isEnabled
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    com.bfz.zhbao.ActivityInfo access$1(com.bfz.zhbao.ActivityInfo$MyAdapter) -> a
+com.bfz.zhbao.ActivityInfo$MyAdapter$1 -> com.bfz.zhbao.j:
+    com.bfz.zhbao.ActivityInfo$MyAdapter this$1 -> a
+    java.lang.String val$phoneNum1 -> b
+    java.lang.String val$msgid -> c
+    void onClick(android.view.View) -> onClick
+    com.bfz.zhbao.ActivityInfo$MyAdapter access$0(com.bfz.zhbao.ActivityInfo$MyAdapter$1) -> a
+com.bfz.zhbao.ActivityInfo$MyAdapter$1$1 -> com.bfz.zhbao.k:
+    com.bfz.zhbao.ActivityInfo$MyAdapter$1 this$2 -> a
+    java.lang.String val$phoneNum1 -> b
+    java.lang.String val$msgid -> c
+    void run() -> run
+com.bfz.zhbao.ActivityInfo$MyAdapter$2 -> com.bfz.zhbao.l:
+    com.bfz.zhbao.ActivityInfo$MyAdapter this$1 -> a
+    java.lang.String val$phoneNum2 -> b
+    java.lang.String val$msgid -> c
+    void onClick(android.view.View) -> onClick
+    com.bfz.zhbao.ActivityInfo$MyAdapter access$0(com.bfz.zhbao.ActivityInfo$MyAdapter$2) -> a
+com.bfz.zhbao.ActivityInfo$MyAdapter$2$1 -> com.bfz.zhbao.m:
+    com.bfz.zhbao.ActivityInfo$MyAdapter$2 this$2 -> a
+    java.lang.String val$phoneNum2 -> b
+    java.lang.String val$msgid -> c
+    void run() -> run
+com.bfz.zhbao.ActivityInfo$MyAdapter$3 -> com.bfz.zhbao.n:
+    com.bfz.zhbao.ActivityInfo$MyAdapter this$1 -> a
+    java.lang.String val$phoneNum3 -> b
+    java.lang.String val$msgid -> c
+    void onClick(android.view.View) -> onClick
+    com.bfz.zhbao.ActivityInfo$MyAdapter access$0(com.bfz.zhbao.ActivityInfo$MyAdapter$3) -> a
+com.bfz.zhbao.ActivityInfo$MyAdapter$3$1 -> com.bfz.zhbao.o:
+    com.bfz.zhbao.ActivityInfo$MyAdapter$3 this$2 -> a
+    java.lang.String val$phoneNum3 -> b
+    java.lang.String val$msgid -> c
+    void run() -> run
+com.bfz.zhbao.ActivityInfo$MyAdapter$4 -> com.bfz.zhbao.p:
+    com.bfz.zhbao.ActivityInfo$MyAdapter this$1 -> a
+    java.lang.String val$msginfo -> b
+    java.lang.String val$phoneNum1 -> c
+    java.lang.String val$phoneNum2 -> d
+    java.lang.String val$phoneNum3 -> e
+    void onClick(android.view.View) -> onClick
+com.bfz.zhbao.ActivityInfo$Result -> com.bfz.zhbao.q:
+    android.widget.TextView depname -> a
+    android.widget.TextView datatime -> b
+    android.widget.TextView msginfo -> c
+    android.widget.TextView infoNbr1 -> d
+    android.widget.TextView infoNbr2 -> e
+    android.widget.TextView infoNbr3 -> f
+    android.widget.TextView sharenum -> g
+    android.widget.TextView fenxiang -> h
+com.bfz.zhbao.ActivityInfo$cityClickListener -> com.bfz.zhbao.r:
+    com.bfz.zhbao.ActivityInfo this$0 -> a
+    void onClick(android.view.View) -> onClick
+    com.bfz.zhbao.ActivityInfo access$0(com.bfz.zhbao.ActivityInfo$cityClickListener) -> a
+com.bfz.zhbao.ActivityInfo$cityClickListener$1 -> com.bfz.zhbao.s:
+    com.bfz.zhbao.ActivityInfo$cityClickListener this$1 -> a
+    void run() -> run
+com.bfz.zhbao.ActivityInfo$cityClickListener$1$1 -> com.bfz.zhbao.t:
+    int compare(java.lang.Object,java.lang.Object) -> compare
+com.bfz.zhbao.ActivityInfo$moreListener -> com.bfz.zhbao.u:
+    com.bfz.zhbao.ActivityInfo this$0 -> a
+    void onClick(android.view.View) -> onClick
+    com.bfz.zhbao.ActivityInfo access$0(com.bfz.zhbao.ActivityInfo$moreListener) -> a
+com.bfz.zhbao.ActivityInfo$moreListener$1 -> com.bfz.zhbao.v:
+    com.bfz.zhbao.ActivityInfo$moreListener this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.bfz.zhbao.ActivityInfo$moreListener$2 -> com.bfz.zhbao.w:
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.bfz.zhbao.ActivityInfo$sortClickListener -> com.bfz.zhbao.x:
+    com.bfz.zhbao.ActivityInfo this$0 -> a
+    void onClick(android.view.View) -> onClick
+    com.bfz.zhbao.ActivityInfo access$0(com.bfz.zhbao.ActivityInfo$sortClickListener) -> a
+com.bfz.zhbao.ActivityInfo$sortClickListener$1 -> com.bfz.zhbao.y:
+    com.bfz.zhbao.ActivityInfo$sortClickListener this$1 -> a
+    void run() -> run
+com.bfz.zhbao.ActivityInfo$timeClickListener -> com.bfz.zhbao.z:
+    com.bfz.zhbao.ActivityInfo this$0 -> a
+    void onClick(android.view.View) -> onClick
+    com.bfz.zhbao.ActivityInfo access$0(com.bfz.zhbao.ActivityInfo$timeClickListener) -> a
+com.bfz.zhbao.ActivityInfo$timeClickListener$1 -> com.bfz.zhbao.A:
+    com.bfz.zhbao.ActivityInfo$timeClickListener this$1 -> a
+    void run() -> run
+com.bfz.zhbao.ActivityMain -> com.bfz.zhbao.ActivityMain:
+    android.widget.Button[] btRegion -> a
+    android.widget.Button btExit -> b
+    android.widget.TextView tvCity -> c
+    java.util.Map regNumMap -> d
+    android.os.Handler cityInfoHandle -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void onStart() -> onStart
+    android.os.AsyncTask getRegNumTask() -> a
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    android.widget.TextView access$0(com.bfz.zhbao.ActivityMain) -> a
+    android.os.AsyncTask access$1(com.bfz.zhbao.ActivityMain) -> b
+    java.util.Map access$2(com.bfz.zhbao.ActivityMain) -> c
+    android.widget.Button[] access$3(com.bfz.zhbao.ActivityMain) -> d
+    android.os.Handler access$4(com.bfz.zhbao.ActivityMain) -> e
+com.bfz.zhbao.ActivityMain$1 -> com.bfz.zhbao.B:
+    com.bfz.zhbao.ActivityMain this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+    com.bfz.zhbao.ActivityMain access$0(com.bfz.zhbao.ActivityMain$1) -> a
+com.bfz.zhbao.ActivityMain$1$1 -> com.bfz.zhbao.C:
+    com.bfz.zhbao.ActivityMain$1 this$1 -> a
+    org.jivesoftware.smack.util.PacketParserUtils val$mMsg$1308d522 -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.bfz.zhbao.ActivityMain$1$2 -> com.bfz.zhbao.D:
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.bfz.zhbao.ActivityMain$2 -> com.bfz.zhbao.E:
+    com.bfz.zhbao.ActivityMain this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.bfz.zhbao.ActivityMain$3 -> com.bfz.zhbao.F:
+    com.bfz.zhbao.ActivityMain this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.bfz.zhbao.ActivityMain$4 -> com.bfz.zhbao.G:
+    com.bfz.zhbao.ActivityMain this$0 -> a
+    void run() -> run
+com.bfz.zhbao.ActivityMain$5 -> com.bfz.zhbao.H:
+    com.bfz.zhbao.ActivityMain this$0 -> a
+    java.lang.String doInBackground(java.lang.String[]) -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.bfz.zhbao.ActivityMain$6 -> com.bfz.zhbao.I:
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.bfz.zhbao.ActivityMain$Listener -> com.bfz.zhbao.J:
+    com.bfz.zhbao.ActivityMain this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.bfz.zhbao.ActivityMain$tvListener -> com.bfz.zhbao.K:
+    com.bfz.zhbao.ActivityMain this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.bfz.zhbao.ActivitySheng -> com.bfz.zhbao.ActivitySheng:
+    android.widget.Button btsTitle -> a
+    android.widget.Button[] btsSheng -> b
+    void onCreate(android.os.Bundle) -> onCreate
+com.bfz.zhbao.ActivitySheng$Listener -> com.bfz.zhbao.L:
+    com.bfz.zhbao.ActivitySheng this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.bfz.zhbao.ActivityShi -> com.bfz.zhbao.ActivityShi:
+    android.widget.Button btcTitle -> a
+    android.widget.Button[] btCity -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+com.bfz.zhbao.ActivityShi$Listener -> com.bfz.zhbao.M:
+    com.bfz.zhbao.ActivityShi this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.bfz.zhbao.FirstStartActivity -> com.bfz.zhbao.FirstStartActivity:
+    android.widget.EditText etPhone -> a
+    java.lang.String uImsi -> b
+    java.lang.String uSim -> c
+    java.lang.String uImei -> d
+    java.lang.String uPhone -> e
+    com.bfz.zhbao.service.SmsRecevier smsRecevier -> f
+    android.os.Handler handler -> g
+    void onCreate(android.os.Bundle) -> onCreate
+    void onStart() -> onStart
+    void onClick(android.view.View) -> onClick
+    void onSendVerifyCode(java.lang.String,java.lang.String) -> a
+    void onDestroy() -> onDestroy
+    void access$0(com.bfz.zhbao.FirstStartActivity,com.bfz.zhbao.service.SmsRecevier) -> a
+    com.bfz.zhbao.service.SmsRecevier access$1(com.bfz.zhbao.FirstStartActivity) -> a
+    android.widget.EditText access$2(com.bfz.zhbao.FirstStartActivity) -> b
+    java.lang.String access$3(com.bfz.zhbao.FirstStartActivity) -> c
+    android.os.Handler access$4(com.bfz.zhbao.FirstStartActivity) -> d
+    java.lang.String access$5(com.bfz.zhbao.FirstStartActivity) -> e
+    java.lang.String access$6(com.bfz.zhbao.FirstStartActivity) -> f
+com.bfz.zhbao.FirstStartActivity$1 -> com.bfz.zhbao.N:
+    com.bfz.zhbao.FirstStartActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.bfz.zhbao.FirstStartActivity$2 -> com.bfz.zhbao.O:
+    com.bfz.zhbao.FirstStartActivity this$0 -> a
+    void run() -> run
+com.bfz.zhbao.FirstStartActivity$3 -> com.bfz.zhbao.P:
+    com.bfz.zhbao.FirstStartActivity this$0 -> a
+    android.app.ProgressDialog val$pDialog -> b
+    java.lang.String val$uPhone -> c
+    void run() -> run
+com.bfz.zhbao.FirstStartActivity$4 -> com.bfz.zhbao.Q:
+    com.bfz.zhbao.FirstStartActivity this$0 -> a
+    java.lang.String val$verifyCode -> b
+    android.widget.EditText val$etVerify -> c
+    java.lang.String val$uPhone -> d
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.bfz.zhbao.FirstStartActivity$5 -> com.bfz.zhbao.R:
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.bfz.zhbao.SplashScreen -> com.bfz.zhbao.SplashScreen:
+    android.widget.TextView tvStart -> a
+    boolean isgo -> b
+    boolean isRegister -> c
+    android.os.Handler handler -> d
+    void onCreate(android.os.Bundle) -> onCreate
+    android.widget.TextView access$0() -> a
+    android.os.Handler access$1(com.bfz.zhbao.SplashScreen) -> a
+    void access$2(com.bfz.zhbao.SplashScreen,boolean) -> a
+    void access$3(com.bfz.zhbao.SplashScreen,boolean) -> b
+    boolean access$4(com.bfz.zhbao.SplashScreen) -> b
+    boolean access$5(com.bfz.zhbao.SplashScreen) -> c
+com.bfz.zhbao.SplashScreen$1 -> com.bfz.zhbao.S:
+    com.bfz.zhbao.SplashScreen this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.bfz.zhbao.SplashScreen$2 -> com.bfz.zhbao.T:
+    com.bfz.zhbao.SplashScreen this$0 -> a
+    void run() -> run
+com.bfz.zhbao.SplashScreen$3 -> com.bfz.zhbao.U:
+    com.bfz.zhbao.SplashScreen this$0 -> a
+    java.lang.Thread val$thread -> b
+    void run() -> run
+com.bfz.zhbao.client.ClientUtil -> com.bfz.zhbao.a.a:
+    org.jivesoftware.smack.XMPPConnection con -> a
+    void openConnection() -> d
+    org.jivesoftware.smack.XMPPConnection getConnection() -> a
+    void closeConnection() -> b
+    boolean isConnected() -> c
+com.bfz.zhbao.service.CliSendMsgIQ -> com.bfz.zhbao.service.a:
+    java.lang.String body -> a
+    void setBody(java.lang.String) -> a
+    java.lang.String getChildElementXML() -> a
+com.bfz.zhbao.service.MsgAppBroadcast -> com.bfz.zhbao.service.MsgAppBroadcast:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.bfz.zhbao.service.MsgAppService -> com.bfz.zhbao.service.MsgAppService:
+    android.app.NotificationManager mNM -> a
+    java.lang.String userName -> b
+    java.lang.String passWord -> c
+    android.app.Notification builder -> d
+    java.util.Timer timer -> e
+    java.util.Timer isLoginTimer -> f
+    java.lang.String reg -> g
+    int cellId -> h
+    java.lang.String lng -> i
+    java.lang.String lat -> j
+    java.util.TimerTask isLoginTask -> k
+    android.os.Handler h -> l
+    android.app.PendingIntent contentIntent -> m
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    void onCreate() -> onCreate
+    void init() -> a
+    void onDestroy() -> onDestroy
+    boolean regUser() -> b
+    java.util.Timer access$0(com.bfz.zhbao.service.MsgAppService) -> a
+    void access$1(com.bfz.zhbao.service.MsgAppService,java.util.Timer) -> a
+    boolean access$2(com.bfz.zhbao.service.MsgAppService) -> b
+    void access$3(com.bfz.zhbao.service.MsgAppService) -> c
+    void access$4(com.bfz.zhbao.service.MsgAppService) -> d
+    java.lang.String access$5(com.bfz.zhbao.service.MsgAppService) -> e
+    void access$6(com.bfz.zhbao.service.MsgAppService,java.lang.String) -> a
+com.bfz.zhbao.service.MsgAppService$1 -> com.bfz.zhbao.service.b:
+    com.bfz.zhbao.service.MsgAppService this$0 -> a
+    void run() -> run
+com.bfz.zhbao.service.MsgAppService$2 -> com.bfz.zhbao.service.c:
+    com.bfz.zhbao.service.MsgAppService this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.bfz.zhbao.service.MsgAppService$3 -> com.bfz.zhbao.service.d:
+    com.bfz.zhbao.service.MsgAppService this$0 -> a
+    void run() -> run
+com.bfz.zhbao.service.MsgAppService$4 -> com.bfz.zhbao.service.e:
+    com.bfz.zhbao.service.MsgAppService this$0 -> a
+    void run() -> run
+com.bfz.zhbao.service.MsgAppService$5 -> com.bfz.zhbao.service.f:
+    com.bfz.zhbao.service.MsgAppService this$0 -> a
+    void processPacket(org.jivesoftware.smack.packet.Packet) -> a
+com.bfz.zhbao.service.MsgAppService$6 -> com.bfz.zhbao.service.g:
+    boolean accept(org.jivesoftware.smack.packet.Packet) -> a
+com.bfz.zhbao.service.SmsRecevier -> com.bfz.zhbao.service.h:
+    boolean m_IsSelf -> a
+    android.content.Context m_Context -> b
+    java.lang.String m_SendMsg -> c
+    java.lang.String m_SMS_RECEIVED -> d
+    com.bfz.zhbao.service.SmsRecevier$SmsContentObserver m_Smsobserver -> e
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    android.content.Context access$0(com.bfz.zhbao.service.SmsRecevier) -> a
+    java.lang.String access$1(com.bfz.zhbao.service.SmsRecevier) -> b
+com.bfz.zhbao.service.SmsRecevier$SmsContentObserver -> com.bfz.zhbao.service.i:
+    com.bfz.zhbao.service.SmsRecevier this$0 -> a
+    void onChange(boolean) -> onChange
+com.bfz.zhbao.util.CityInfoParser -> com.bfz.zhbao.b.a:
+    java.io.InputStream in -> a
+    java.util.ArrayList parse() -> a
+    java.util.List Parse(java.lang.String) -> a
+com.bfz.zhbao.util.CityInfoParser$1 -> com.bfz.zhbao.b.b:
+    java.util.ArrayList val$messages -> a
+    com.bfz.zhbao.util.CityInfoParser$CityInfo val$currentMessage -> b
+    void end() -> end
+com.bfz.zhbao.util.CityInfoParser$2 -> com.bfz.zhbao.b.c:
+    com.bfz.zhbao.util.CityInfoParser$CityInfo val$currentMessage -> a
+    void end(java.lang.String) -> end
+com.bfz.zhbao.util.CityInfoParser$3 -> com.bfz.zhbao.b.d:
+    com.bfz.zhbao.util.CityInfoParser$CityInfo val$currentMessage -> a
+    void end(java.lang.String) -> end
+com.bfz.zhbao.util.CityInfoParser$CityInfo -> com.bfz.zhbao.b.e:
+    java.lang.String ADDRESSEND -> a
+    java.lang.String ADDRESSCOUNT -> b
+com.bfz.zhbao.util.HttpClientUtil -> com.bfz.zhbao.b.f:
+    org.apache.http.impl.client.DefaultHttpClient client -> a
+    java.lang.String getStringByGet(java.lang.String,java.util.Map,int) -> a
+com.bfz.zhbao.util.MsgInfoParser$1 -> com.bfz.zhbao.b.g:
+    com.bfz.zhbao.util.MsgInfoParser$Msg val$msg -> a
+    void end(java.lang.String) -> end
+com.bfz.zhbao.util.MsgInfoParser$10 -> com.bfz.zhbao.b.h:
+    com.bfz.zhbao.util.MsgInfoParser$Msg val$msg -> a
+    void end(java.lang.String) -> end
+com.bfz.zhbao.util.MsgInfoParser$11 -> com.bfz.zhbao.b.i:
+    com.bfz.zhbao.util.MsgInfoParser$Msg val$msg -> a
+    void end(java.lang.String) -> end
+com.bfz.zhbao.util.MsgInfoParser$12 -> com.bfz.zhbao.b.j:
+    com.bfz.zhbao.util.MsgInfoParser$Msg val$msg -> a
+    void end(java.lang.String) -> end
+com.bfz.zhbao.util.MsgInfoParser$13 -> com.bfz.zhbao.b.k:
+    com.bfz.zhbao.util.MsgInfoParser$Msg val$msg -> a
+    void end(java.lang.String) -> end
+com.bfz.zhbao.util.MsgInfoParser$14 -> com.bfz.zhbao.b.l:
+    com.bfz.zhbao.util.MsgInfoParser$Msg val$msg -> a
+    void end(java.lang.String) -> end
+com.bfz.zhbao.util.MsgInfoParser$15 -> com.bfz.zhbao.b.m:
+    com.bfz.zhbao.util.MsgInfoParser$Msg val$msg -> a
+    void end(java.lang.String) -> end
+com.bfz.zhbao.util.MsgInfoParser$16 -> com.bfz.zhbao.b.n:
+    com.bfz.zhbao.util.MsgInfoParser$Msg val$msg -> a
+    void end(java.lang.String) -> end
+com.bfz.zhbao.util.MsgInfoParser$17 -> com.bfz.zhbao.b.o:
+    com.bfz.zhbao.util.MsgInfoParser$Msg val$msg -> a
+    void end(java.lang.String) -> end
+com.bfz.zhbao.util.MsgInfoParser$18 -> com.bfz.zhbao.b.p:
+    com.bfz.zhbao.util.MsgInfoParser$Msg val$msg -> a
+    void end(java.lang.String) -> end
+com.bfz.zhbao.util.MsgInfoParser$19 -> com.bfz.zhbao.b.q:
+    com.bfz.zhbao.util.MsgInfoParser$Msg val$msg -> a
+    void end(java.lang.String) -> end
+com.bfz.zhbao.util.MsgInfoParser$2 -> com.bfz.zhbao.b.r:
+    com.bfz.zhbao.util.MsgInfoParser$Msg val$msg -> a
+    void end(java.lang.String) -> end
+com.bfz.zhbao.util.MsgInfoParser$20 -> com.bfz.zhbao.b.s:
+    com.bfz.zhbao.util.MsgInfoParser$Msg val$msg -> a
+    void end(java.lang.String) -> end
+com.bfz.zhbao.util.MsgInfoParser$21 -> com.bfz.zhbao.b.t:
+    com.bfz.zhbao.util.MsgInfoParser$Msg val$msg -> a
+    void end(java.lang.String) -> end
+com.bfz.zhbao.util.MsgInfoParser$22 -> com.bfz.zhbao.b.u:
+    com.bfz.zhbao.util.MsgInfoParser$Msg val$msg -> a
+    void end(java.lang.String) -> end
+com.bfz.zhbao.util.MsgInfoParser$23 -> com.bfz.zhbao.b.v:
+    java.util.List val$msgList -> a
+    com.bfz.zhbao.util.MsgInfoParser$Msg val$msg -> b
+    void end() -> end
+com.bfz.zhbao.util.MsgInfoParser$3 -> com.bfz.zhbao.b.w:
+    com.bfz.zhbao.util.MsgInfoParser$Msg val$msg -> a
+    void end(java.lang.String) -> end
+com.bfz.zhbao.util.MsgInfoParser$4 -> com.bfz.zhbao.b.x:
+    com.bfz.zhbao.util.MsgInfoParser$Msg val$msg -> a
+    void end(java.lang.String) -> end
+com.bfz.zhbao.util.MsgInfoParser$5 -> com.bfz.zhbao.b.y:
+    com.bfz.zhbao.util.MsgInfoParser$Msg val$msg -> a
+    void end(java.lang.String) -> end
+com.bfz.zhbao.util.MsgInfoParser$6 -> com.bfz.zhbao.b.z:
+    com.bfz.zhbao.util.MsgInfoParser$Msg val$msg -> a
+    void end(java.lang.String) -> end
+com.bfz.zhbao.util.MsgInfoParser$7 -> com.bfz.zhbao.b.A:
+    com.bfz.zhbao.util.MsgInfoParser$Msg val$msg -> a
+    void end(java.lang.String) -> end
+com.bfz.zhbao.util.MsgInfoParser$8 -> com.bfz.zhbao.b.B:
+    com.bfz.zhbao.util.MsgInfoParser$Msg val$msg -> a
+    void end(java.lang.String) -> end
+com.bfz.zhbao.util.MsgInfoParser$9 -> com.bfz.zhbao.b.C:
+    com.bfz.zhbao.util.MsgInfoParser$Msg val$msg -> a
+    void end(java.lang.String) -> end
+com.bfz.zhbao.util.MsgInfoParser$Msg -> com.bfz.zhbao.b.D:
+    java.lang.String _id -> a
+    java.lang.String _num -> b
+    java.lang.String _nbr -> c
+    java.lang.String _name -> d
+    java.lang.String _city -> e
+    java.lang.String _cDate -> f
+    java.lang.String _info -> g
+    java.lang.String _infoStart -> h
+    java.lang.String _infoEnd -> i
+    java.lang.String _infoNbr1 -> j
+    java.lang.String _infoNbr2 -> k
+    java.lang.String _infoNbr3 -> l
+    java.lang.String _infoTruck -> m
+    java.lang.String _infoGoods -> n
+    java.lang.String _infoNote -> o
+    java.lang.String _infoFrom -> p
+    java.lang.String _state -> q
+    java.lang.String _note -> r
+    java.lang.String _lngStart -> s
+    java.lang.String _latStart -> t
+    java.lang.String _lngEnd -> u
+    java.lang.String _latEnd -> v
+    java.lang.String getId() -> a
+    void setId(java.lang.String) -> a
+    java.lang.String getNum() -> b
+    void setNum(java.lang.String) -> b
+    void setNbr(java.lang.String) -> c
+    java.lang.String getName() -> c
+    void setName(java.lang.String) -> d
+    void setCity(java.lang.String) -> e
+    java.lang.String getCreateDate() -> d
+    void setCreateDate(java.lang.String) -> f
+    java.lang.String getInfo() -> e
+    void setInfo(java.lang.String) -> g
+    void setInfoStart(java.lang.String) -> h
+    java.lang.String getInfoEnd() -> f
+    void setInfoEnd(java.lang.String) -> i
+    java.lang.String getInfoNbr1() -> g
+    void setInfoNbr1(java.lang.String) -> j
+    java.lang.String getInfoNbr2() -> h
+    void setInfoNbr2(java.lang.String) -> k
+    java.lang.String getInfoNbr3() -> i
+    void setInfoNbr3(java.lang.String) -> l
+    void setInfoTruck(java.lang.String) -> m
+    void setInfoGoods(java.lang.String) -> n
+    void setInfoNote(java.lang.String) -> o
+    void setInfoFrom(java.lang.String) -> p
+    void setState(java.lang.String) -> q
+    void setNote(java.lang.String) -> r
+    void setLngStart(java.lang.String) -> s
+    void setLatStart(java.lang.String) -> t
+    void setLngEnd(java.lang.String) -> u
+    void setLatEnd(java.lang.String) -> v
+    com.bfz.zhbao.util.MsgInfoParser$Msg copy() -> j
+com.novell.sasl.client.DigestChallenge -> com.a.a.a.a:
+    java.util.ArrayList m_realms -> a
+    java.lang.String m_nonce -> b
+    int m_qop -> c
+    boolean m_staleFlag -> d
+    int m_maxBuf -> e
+    java.lang.String m_characterSet -> f
+    java.lang.String m_algorithm -> g
+    int m_cipherOptions -> h
+    void checkSemantics(com.novell.sasl.client.DirectiveList) -> a
+    void handleCipher(com.novell.sasl.client.ParsedDirective) -> a
+    java.util.ArrayList getRealms() -> a
+    java.lang.String getNonce() -> b
+    int getQop() -> c
+    java.lang.String getAlgorithm() -> d
+com.novell.sasl.client.DigestMD5SaslClient -> com.a.a.a.b:
+    java.lang.String m_authorizationId -> a
+    java.lang.String m_protocol -> b
+    java.lang.String m_serverName -> c
+    org.apache.harmony.javax.security.auth.callback.CallbackHandler m_cbh -> d
+    int m_state -> e
+    java.lang.String m_qopValue -> f
+    char[] m_HA1 -> g
+    java.lang.String m_digestURI -> h
+    com.novell.sasl.client.DigestChallenge m_dc -> i
+    java.lang.String m_clientNonce -> j
+    java.lang.String m_realm -> k
+    java.lang.String m_name -> l
+    org.apache.harmony.javax.security.sasl.SaslClient getClient(java.lang.String,java.lang.String,java.lang.String,java.util.Map,org.apache.harmony.javax.security.auth.callback.CallbackHandler) -> a
+    boolean hasInitialResponse() -> a
+    byte[] evaluateChallenge(byte[]) -> a
+    char[] convertToHex(byte[]) -> b
+    char[] DigestCalcHA1(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> a
+    char[] DigestCalcResponse(char[],java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean) -> a
+    java.lang.String createDigestResponse(byte[]) -> c
+    char getHexChar(byte) -> a
+    java.lang.String getClientNonce() -> b
+com.novell.sasl.client.DirectiveList -> com.a.a.a.c:
+    int m_curPos -> a
+    java.lang.String m_directives -> b
+    int m_state -> c
+    java.util.ArrayList m_directiveList -> d
+    int m_scanStart -> e
+    void parseDirectives() -> a
+    boolean isValidTokenChar(char) -> a
+    boolean isWhiteSpace(char) -> b
+    void addDirective(java.lang.String,boolean) -> a
+    java.util.Iterator getIterator() -> b
+com.novell.sasl.client.ParsedDirective -> com.a.a.a.d:
+    java.lang.String m_name -> a
+    java.lang.String m_value -> b
+    java.lang.String getValue() -> a
+    java.lang.String getName() -> b
+com.novell.sasl.client.ResponseAuth -> com.a.a.a.e:
+    java.lang.String m_responseValue -> a
+    void checkSemantics(com.novell.sasl.client.DirectiveList) -> a
+    java.lang.String getResponseValue() -> a
+com.novell.sasl.client.TokenParser -> com.a.a.a.f:
+    int m_curPos -> a
+    int m_scanStart -> b
+    int m_state -> c
+    java.lang.String m_tokens -> d
+    java.lang.String parseToken() -> a
+    boolean isValidTokenChar(char) -> a
+    boolean isWhiteSpace(char) -> b
+de.measite.smack.SaslClientFactory -> a.a.a.a:
+    org.apache.harmony.javax.security.sasl.SaslClient createSaslClient(java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.util.Map,org.apache.harmony.javax.security.auth.callback.CallbackHandler) -> a
+it.sauronsoftware.base64.Base64InputStream -> b.a.a.a:
+    java.io.InputStream inputStream -> a
+    int[] buffer -> b
+    int bufferCounter -> c
+    boolean eof -> d
+    int read() -> read
+    void close() -> close
+it.sauronsoftware.base64.Shared -> b.a.a.b:
+    java.lang.String chars -> a
+    char pad -> b
+org.apache.harmony.javax.security.auth.callback.Callback -> c.a.a.a.a.a.a.a:
+org.apache.harmony.javax.security.auth.callback.CallbackHandler -> c.a.a.a.a.a.a.b:
+    void handle(org.apache.harmony.javax.security.auth.callback.Callback[]) -> a
+org.apache.harmony.javax.security.auth.callback.ChoiceCallback -> c.a.a.a.a.a.a.c:
+    java.lang.String[] choices -> a
+    void setChoices(java.lang.String[]) -> a
+    java.lang.String[] getChoices() -> a
+    int[] getSelectedIndexes() -> b
+org.apache.harmony.javax.security.auth.callback.NameCallback -> c.a.a.a.a.a.a.d:
+    java.lang.String defaultName -> a
+    java.lang.String inputName -> b
+    void setPrompt(java.lang.String) -> b
+    java.lang.String getDefaultName() -> a
+    void setName(java.lang.String) -> a
+    java.lang.String getName() -> b
+org.apache.harmony.javax.security.auth.callback.PasswordCallback -> c.a.a.a.a.a.a.e:
+    char[] inputPassword -> a
+    void setPassword(char[]) -> a
+    char[] getPassword() -> a
+    void clearPassword() -> b
+org.apache.harmony.javax.security.auth.callback.TextInputCallback -> c.a.a.a.a.a.a.f:
+    java.lang.String inputText -> a
+    void setPrompt(java.lang.String) -> b
+    java.lang.String getText() -> a
+    void setText(java.lang.String) -> a
+org.apache.harmony.javax.security.auth.callback.UnsupportedCallbackException -> c.a.a.a.a.a.a.g:
+org.apache.harmony.javax.security.sasl.RealmCallback -> c.a.a.a.a.b.a:
+org.apache.harmony.javax.security.sasl.RealmChoiceCallback -> c.a.a.a.a.b.b:
+org.apache.harmony.javax.security.sasl.SaslClient -> c.a.a.a.a.b.c:
+    byte[] evaluateChallenge(byte[]) -> a
+    boolean hasInitialResponse() -> a
+org.apache.harmony.javax.security.sasl.SaslException -> c.a.a.a.a.b.d:
+    java.lang.Throwable _exception -> a
+    java.lang.Throwable getCause() -> getCause
+    java.lang.Throwable initCause(java.lang.Throwable) -> initCause
+    java.lang.String toString() -> toString
+org.apache.qpid.management.common.sasl.PlainSaslClient -> c.a.b.a.a.a.a:
+    boolean completed -> a
+    org.apache.harmony.javax.security.auth.callback.CallbackHandler cbh -> b
+    java.lang.String authorizationID -> c
+    java.lang.String authenticationID -> d
+    byte[] password -> e
+    byte SEPARATOR -> f
+    byte[] evaluateChallenge(byte[]) -> a
+    boolean hasInitialResponse() -> a
+    void clearPassword() -> b
+    void finalize() -> finalize
+    java.lang.Object[] getUserInfo() -> c
+org.jivesoftware.smack.AccountManager -> c.b.a.a:
+org.jivesoftware.smack.Connection -> c.b.a.b:
+    java.util.concurrent.atomic.AtomicInteger connectionCounter -> l
+    java.util.Set connectionEstablishedListeners -> m
+    boolean DEBUG_ENABLED -> a
+    java.util.Collection connectionListeners -> n
+    java.util.Collection collectors -> b
+    java.util.Map recvListeners -> c
+    java.util.Map sendListeners -> d
+    java.util.Map interceptors -> e
+    org.jivesoftware.smack.AccountManager accountManager -> o
+    org.jivesoftware.smack.debugger.SmackDebugger debugger -> f
+    java.io.Reader reader -> g
+    java.io.Writer writer -> h
+    org.jivesoftware.smack.SASLAuthentication saslAuthentication -> i
+    int connectionCounterValue -> j
+    org.jivesoftware.smack.ConnectionConfiguration config -> k
+    org.jivesoftware.smack.ConnectionConfiguration getConfiguration() -> a
+    java.lang.String getServiceName() -> b
+    java.lang.String getHost() -> c
+    int getPort() -> d
+    java.lang.String getConnectionID() -> e
+    boolean isConnected() -> f
+    boolean isAuthenticated() -> g
+    boolean isAnonymous() -> h
+    void login(java.lang.String,java.lang.String) -> a
+    void login(java.lang.String,java.lang.String,java.lang.String) -> a
+    void sendPacket(org.jivesoftware.smack.packet.Packet) -> a
+    org.jivesoftware.smack.AccountManager getAccountManager() -> i
+    org.jivesoftware.smack.SASLAuthentication getSASLAuthentication() -> j
+    void disconnect() -> k
+    void disconnect(org.jivesoftware.smack.packet.Presence) -> a
+    void addConnectionCreationListener(org.jivesoftware.smack.ConnectionCreationListener) -> a
+    java.util.Collection getConnectionCreationListeners() -> l
+    void addConnectionListener(org.jivesoftware.smack.ConnectionListener) -> a
+    java.util.Collection getConnectionListeners() -> m
+    org.jivesoftware.smack.PacketCollector createPacketCollector(org.jivesoftware.smack.filter.PacketFilter) -> a
+    void removePacketCollector(org.jivesoftware.smack.PacketCollector) -> a
+    java.util.Collection getPacketCollectors() -> n
+    void addPacketListener(org.jivesoftware.smack.PacketListener,org.jivesoftware.smack.filter.PacketFilter) -> a
+    void removePacketListener(org.jivesoftware.smack.PacketListener) -> a
+    void firePacketSendingListeners(org.jivesoftware.smack.packet.Packet) -> b
+    void firePacketInterceptors(org.jivesoftware.smack.packet.Packet) -> c
+    void initDebugger() -> o
+org.jivesoftware.smack.Connection$InterceptorWrapper -> c.b.a.c:
+    boolean equals(java.lang.Object) -> equals
+org.jivesoftware.smack.Connection$ListenerWrapper -> c.b.a.d:
+    org.jivesoftware.smack.PacketListener packetListener -> a
+    org.jivesoftware.smack.filter.PacketFilter packetFilter -> b
+    void notifyListener(org.jivesoftware.smack.packet.Packet) -> a
+org.jivesoftware.smack.ConnectionConfiguration -> c.b.a.e:
+    java.lang.String serviceName -> a
+    java.lang.String host -> b
+    int port -> c
+    java.lang.String truststorePath -> d
+    java.lang.String truststoreType -> e
+    java.lang.String truststorePassword -> f
+    java.lang.String keystorePath -> g
+    java.lang.String keystoreType -> h
+    java.lang.String pkcs11Library -> i
+    boolean verifyChainEnabled -> j
+    boolean verifyRootCAEnabled -> k
+    boolean selfSignedCertificateEnabled -> l
+    boolean expiredCertificatesCheckEnabled -> m
+    boolean notMatchingDomainCheckEnabled -> n
+    boolean isRosterVersioningAvailable -> o
+    boolean compressionEnabled -> p
+    boolean saslAuthenticationEnabled -> q
+    boolean debuggerEnabled -> r
+    javax.net.SocketFactory socketFactory -> s
+    java.lang.String username -> t
+    java.lang.String password -> u
+    java.lang.String resource -> v
+    boolean sendPresence -> w
+    boolean rosterLoadedAtLogin -> x
+    org.jivesoftware.smack.ConnectionConfiguration$SecurityMode securityMode -> y
+    void setServiceName(java.lang.String) -> a
+    java.lang.String getServiceName() -> a
+    java.lang.String getHost() -> b
+    int getPort() -> c
+    org.jivesoftware.smack.ConnectionConfiguration$SecurityMode getSecurityMode() -> d
+    void setSecurityMode(org.jivesoftware.smack.ConnectionConfiguration$SecurityMode) -> a
+    java.lang.String getTruststorePath() -> e
+    java.lang.String getTruststoreType() -> f
+    java.lang.String getTruststorePassword() -> g
+    java.lang.String getKeystorePath() -> h
+    java.lang.String getKeystoreType() -> i
+    java.lang.String getPKCS11Library() -> j
+    boolean isVerifyChainEnabled() -> k
+    boolean isVerifyRootCAEnabled() -> l
+    void setVerifyRootCAEnabled(boolean) -> a
+    boolean isSelfSignedCertificateEnabled() -> m
+    void setSelfSignedCertificateEnabled(boolean) -> b
+    boolean isExpiredCertificatesCheckEnabled() -> n
+    boolean isNotMatchingDomainCheckEnabled() -> o
+    javax.net.ssl.SSLContext getCustomSSLContext() -> p
+    boolean isCompressionEnabled() -> q
+    boolean isSASLAuthenticationEnabled() -> r
+    boolean isDebuggerEnabled() -> s
+    boolean isRosterLoadedAtLogin() -> t
+    org.apache.harmony.javax.security.auth.callback.CallbackHandler getCallbackHandler() -> u
+    javax.net.SocketFactory getSocketFactory() -> v
+    java.lang.String getUsername() -> w
+    java.lang.String getPassword() -> x
+    java.lang.String getResource() -> y
+    boolean isRosterVersioningAvailable() -> z
+    void setRosterVersioningAvailable(boolean) -> c
+    void setCapsNode(java.lang.String) -> b
+    boolean isSendPresence() -> A
+    void setLoginInfo(java.lang.String,java.lang.String,java.lang.String) -> a
+org.jivesoftware.smack.ConnectionConfiguration$SecurityMode -> c.b.a.f:
+    org.jivesoftware.smack.ConnectionConfiguration$SecurityMode required -> a
+    org.jivesoftware.smack.ConnectionConfiguration$SecurityMode enabled -> b
+    org.jivesoftware.smack.ConnectionConfiguration$SecurityMode disabled -> c
+org.jivesoftware.smack.ConnectionCreationListener -> c.b.a.g:
+    org.jivesoftware.smack.ConnectionListener val$connectionListener -> a
+    org.jivesoftware.smack.Roster this$0 -> b
+    void connectionCreated(org.jivesoftware.smack.Connection) -> a
+org.jivesoftware.smack.ConnectionListener -> c.b.a.h:
+    void connectionClosed() -> a
+    void connectionClosedOnError$698b7e31() -> b
+org.jivesoftware.smack.NonSASLAuthentication -> c.b.a.i:
+    org.jivesoftware.smack.Connection connection -> a
+    java.lang.String authenticate(java.lang.String,java.lang.String,java.lang.String) -> a
+    java.lang.String authenticateAnonymously() -> a
+org.jivesoftware.smack.PacketCollector -> c.b.a.j:
+    org.jivesoftware.smack.filter.PacketFilter packetFilter -> a
+    java.util.concurrent.LinkedBlockingQueue resultQueue -> b
+    org.jivesoftware.smack.Connection conection -> c
+    boolean cancelled -> d
+    void cancel() -> a
+    org.jivesoftware.smack.packet.Packet nextResult(long) -> a
+    void processPacket(org.jivesoftware.smack.packet.Packet) -> a
+org.jivesoftware.smack.PacketInterceptor -> c.b.a.k:
+org.jivesoftware.smack.PacketListener -> c.b.a.l:
+    void processPacket(org.jivesoftware.smack.packet.Packet) -> a
+org.jivesoftware.smack.PacketReader -> c.b.a.m:
+    java.lang.Thread readerThread -> a
+    java.util.concurrent.ExecutorService listenerExecutor -> b
+    org.jivesoftware.smack.XMPPConnection connection -> c
+    org.xmlpull.v1.XmlPullParser parser -> d
+    boolean done -> e
+    java.lang.String connectionID -> f
+    java.util.concurrent.Semaphore connectionSemaphore -> g
+    void init() -> a
+    void startup() -> b
+    void shutdown() -> c
+    void cleanup() -> d
+    void notifyConnectionError(java.lang.Exception) -> a
+    void notifyReconnection() -> e
+    void resetParser() -> f
+    void processPacket(org.jivesoftware.smack.packet.Packet) -> a
+    void access$000(org.jivesoftware.smack.PacketReader,java.lang.Thread) -> a
+    org.jivesoftware.smack.XMPPConnection access$100(org.jivesoftware.smack.PacketReader) -> a
+org.jivesoftware.smack.PacketReader$1 -> c.b.a.n:
+    org.jivesoftware.smack.PacketReader this$0 -> a
+    void run() -> run
+org.jivesoftware.smack.PacketReader$2 -> c.b.a.o:
+    org.jivesoftware.smack.PacketReader this$0 -> a
+    java.lang.Thread newThread(java.lang.Runnable) -> newThread
+org.jivesoftware.smack.PacketReader$ListenerNotification -> c.b.a.p:
+    org.jivesoftware.smack.packet.Packet packet -> a
+    org.jivesoftware.smack.PacketReader this$0 -> b
+    void run() -> run
+org.jivesoftware.smack.PacketWriter -> c.b.a.q:
+    java.lang.Thread writerThread -> a
+    java.lang.Thread keepAliveThread -> b
+    java.io.Writer writer -> c
+    org.jivesoftware.smack.XMPPConnection connection -> d
+    java.util.concurrent.BlockingQueue queue -> e
+    boolean done -> f
+    long lastActive -> g
+    void init() -> a
+    void sendPacket(org.jivesoftware.smack.packet.Packet) -> a
+    void startup() -> b
+    void startKeepAliveProcess() -> c
+    void setWriter(java.io.Writer) -> a
+    void shutdown() -> d
+    void cleanup() -> e
+    org.jivesoftware.smack.packet.Packet nextPacket() -> g
+    void openStream() -> f
+    void access$000(org.jivesoftware.smack.PacketWriter,java.lang.Thread) -> a
+    boolean access$100(org.jivesoftware.smack.PacketWriter) -> a
+    java.lang.Thread access$200(org.jivesoftware.smack.PacketWriter) -> b
+    java.io.Writer access$300(org.jivesoftware.smack.PacketWriter) -> c
+    long access$400(org.jivesoftware.smack.PacketWriter) -> d
+org.jivesoftware.smack.PacketWriter$1 -> c.b.a.r:
+    org.jivesoftware.smack.PacketWriter this$0 -> a
+    void run() -> run
+org.jivesoftware.smack.PacketWriter$KeepAliveTask -> c.b.a.s:
+    int delay -> a
+    java.lang.Thread thread -> b
+    org.jivesoftware.smack.PacketWriter this$0 -> c
+    void setThread(java.lang.Thread) -> a
+    void run() -> run
+org.jivesoftware.smack.Roster -> c.b.a.t:
+    org.jivesoftware.smack.Roster$SubscriptionMode defaultSubscriptionMode -> b
+    org.jivesoftware.smack.RosterListener persistentStorage$3eb077ce -> c
+    org.jivesoftware.smack.Connection connection -> d
+    java.util.Map groups -> e
+    java.util.Map entries -> f
+    java.util.List unfiledEntries -> g
+    java.util.List rosterListeners -> h
+    java.util.Map presenceMap -> i
+    boolean rosterInitialized -> a
+    org.jivesoftware.smack.Roster$PresencePacketListener presencePacketListener -> j
+    org.jivesoftware.smack.Roster$SubscriptionMode subscriptionMode -> k
+    java.lang.String requestPacketId -> l
+    void reload() -> a
+    org.jivesoftware.smack.RosterGroup getGroup(java.lang.String) -> a
+    java.util.Collection getGroups() -> b
+    void cleanup() -> c
+    void access$200(org.jivesoftware.smack.Roster) -> a
+    org.jivesoftware.smack.Connection access$300(org.jivesoftware.smack.Roster) -> b
+    java.lang.String access$500(org.jivesoftware.smack.Roster,java.lang.String) -> a
+    java.util.Map access$600(org.jivesoftware.smack.Roster) -> c
+    java.util.Map access$700(org.jivesoftware.smack.Roster) -> d
+    void access$800(org.jivesoftware.smack.Roster,org.jivesoftware.smack.packet.Presence) -> a
+    org.jivesoftware.smack.Roster$SubscriptionMode access$900(org.jivesoftware.smack.Roster) -> e
+    org.jivesoftware.smack.RosterListener access$1000$3b22e552(org.jivesoftware.smack.Roster) -> f
+    void access$1100$610e3af6(org.jivesoftware.smack.Roster,org.jivesoftware.smack.packet.Message$1,java.util.Collection,java.util.Collection,java.util.Collection) -> a
+    void access$1200(org.jivesoftware.smack.Roster,java.util.Collection,java.util.Collection,java.util.Collection) -> a
+    org.jivesoftware.smack.RosterListener access$1002$13dd7584(org.jivesoftware.smack.Roster,org.jivesoftware.smack.RosterListener) -> a
+org.jivesoftware.smack.Roster$1 -> c.b.a.u:
+    org.jivesoftware.smack.Roster this$0 -> a
+    void connectionClosed() -> a
+    void connectionClosedOnError$698b7e31() -> b
+org.jivesoftware.smack.Roster$PresencePacketListener -> c.b.a.v:
+    org.jivesoftware.smack.Roster this$0 -> a
+    void processPacket(org.jivesoftware.smack.packet.Packet) -> a
+org.jivesoftware.smack.Roster$RosterPacketListener -> c.b.a.w:
+    org.jivesoftware.smack.Roster this$0 -> a
+    void processPacket(org.jivesoftware.smack.packet.Packet) -> a
+org.jivesoftware.smack.Roster$RosterResultListener -> c.b.a.x:
+    org.jivesoftware.smack.Roster this$0 -> a
+    void processPacket(org.jivesoftware.smack.packet.Packet) -> a
+org.jivesoftware.smack.Roster$SubscriptionMode -> c.b.a.y:
+    org.jivesoftware.smack.Roster$SubscriptionMode accept_all -> a
+    org.jivesoftware.smack.Roster$SubscriptionMode reject_all -> b
+    org.jivesoftware.smack.Roster$SubscriptionMode manual -> c
+org.jivesoftware.smack.RosterEntry -> c.b.a.z:
+    java.lang.String user -> a
+    java.lang.String name -> b
+    org.jivesoftware.smack.Roster roster -> c
+    java.util.Collection getGroups() -> a
+    java.lang.String toString() -> toString
+    boolean equals(java.lang.Object) -> equals
+org.jivesoftware.smack.RosterGroup -> c.b.a.A:
+    java.lang.String name -> a
+    java.util.List entries -> b
+    java.lang.String getName() -> a
+    int getEntryCount() -> b
+    boolean contains(org.jivesoftware.smack.RosterEntry) -> a
+    void addEntryLocal(org.jivesoftware.smack.RosterEntry) -> b
+    void removeEntryLocal(org.jivesoftware.smack.RosterEntry) -> c
+org.jivesoftware.smack.RosterListener -> c.b.a.B:
+    java.util.List getEntries() -> a
+    java.lang.String getRosterVersion() -> b
+org.jivesoftware.smack.SASLAuthentication -> c.b.a.C:
+    java.util.Map implementedMechanisms -> a
+    java.util.List mechanismsPreferences -> b
+    org.jivesoftware.smack.Connection connection -> c
+    java.util.Collection serverMechanisms -> d
+    org.jivesoftware.smack.sasl.SASLMechanism currentMechanism -> e
+    boolean saslNegotiated -> f
+    boolean saslFailed -> g
+    boolean resourceBinded -> h
+    boolean sessionSupported -> i
+    java.lang.String errorCondition -> j
+    void registerSASLMechanism(java.lang.String,java.lang.Class) -> a
+    void supportSASLMechanism(java.lang.String,int) -> a
+    boolean hasAnonymousAuthentication() -> a
+    boolean hasNonAnonymousAuthentication() -> b
+    java.lang.String authenticate(java.lang.String,java.lang.String,org.apache.harmony.javax.security.auth.callback.CallbackHandler) -> a
+    java.lang.String authenticate(java.lang.String,java.lang.String,java.lang.String) -> a
+    java.lang.String authenticateAnonymously() -> c
+    java.lang.String bindResourceAndEstablishSession(java.lang.String) -> b
+    void setAvailableSASLMethods(java.util.Collection) -> a
+    void challengeReceived(java.lang.String) -> a
+    void authenticated() -> d
+    void authenticationFailed() -> e
+    void bindingRequired() -> f
+    void send(org.jivesoftware.smack.packet.Packet) -> a
+    void sessionsSupported() -> g
+    void init() -> h
+org.jivesoftware.smack.ServerTrustManager -> c.b.a.D:
+    java.util.regex.Pattern cnPattern -> a
+    org.jivesoftware.smack.ConnectionConfiguration configuration -> b
+    java.lang.String server -> c
+    java.security.KeyStore trustStore -> d
+    java.security.cert.X509Certificate[] getAcceptedIssuers() -> getAcceptedIssuers
+    void checkClientTrusted(java.security.cert.X509Certificate[],java.lang.String) -> checkClientTrusted
+    void checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String) -> checkServerTrusted
+    java.util.List getSubjectAlternativeNames(java.security.cert.X509Certificate) -> a
+org.jivesoftware.smack.SmackConfiguration -> c.b.a.E:
+    int packetReplyTimeout -> a
+    int keepAliveInterval -> b
+    java.util.Vector defaultMechs -> c
+    int localSocks5ProxyPort -> d
+    java.lang.String getVersion() -> a
+    int getPacketReplyTimeout() -> b
+    int getKeepAliveInterval() -> c
+    int parseIntProperty(org.xmlpull.v1.XmlPullParser,int) -> a
+    java.lang.ClassLoader[] getClassLoaders() -> d
+org.jivesoftware.smack.XMPPConnection -> c.b.a.F:
+    java.net.Socket socket -> o
+    java.lang.String connectionID -> l
+    java.lang.String user -> p
+    boolean connected -> q
+    boolean authenticated -> r
+    boolean wasAuthenticated -> s
+    boolean anonymous -> t
+    boolean usingTLS -> u
+    org.jivesoftware.smack.PacketWriter packetWriter -> m
+    org.jivesoftware.smack.PacketReader packetReader -> n
+    org.jivesoftware.smack.Roster roster -> v
+    java.util.Collection compressionMethods -> w
+    boolean usingCompression -> x
+    java.lang.String getConnectionID() -> e
+    java.lang.String getUser() -> p
+    void login(java.lang.String,java.lang.String,java.lang.String) -> a
+    void loginAnonymously() -> v
+    boolean isConnected() -> f
+    boolean isSecureConnection() -> q
+    boolean isAuthenticated() -> g
+    boolean isAnonymous() -> h
+    void shutdown(org.jivesoftware.smack.packet.Presence) -> b
+    void disconnect(org.jivesoftware.smack.packet.Presence) -> a
+    void sendPacket(org.jivesoftware.smack.packet.Packet) -> a
+    void initConnection() -> w
+    void initReaderAndWriter() -> x
+    void startTLSReceived(boolean) -> a
+    void proceedTLSReceived() -> r
+    void setAvailableCompressionMethods(java.util.Collection) -> a
+    boolean useCompression() -> y
+    void startStreamCompression() -> s
+    void streamCompressionDenied() -> t
+    void connect() -> u
+    void setWasAuthenticated(boolean) -> b
+org.jivesoftware.smack.XMPPException -> c.b.a.G:
+    org.jivesoftware.smack.packet.StreamError streamError -> a
+    org.jivesoftware.smack.packet.XMPPError error -> b
+    java.lang.Throwable wrappedThrowable -> c
+    void printStackTrace() -> printStackTrace
+    void printStackTrace(java.io.PrintStream) -> printStackTrace
+    void printStackTrace(java.io.PrintWriter) -> printStackTrace
+    java.lang.String getMessage() -> getMessage
+    java.lang.String toString() -> toString
+org.jivesoftware.smack.debugger.ConsoleDebugger -> c.b.a.a.a:
+    java.io.Writer writer -> a
+    java.io.Reader reader -> b
+    java.io.Reader newConnectionReader(java.io.Reader) -> a
+    java.io.Writer newConnectionWriter(java.io.Writer) -> a
+    void userHasLogged(java.lang.String) -> a
+    java.io.Reader getReader() -> a
+    java.io.Writer getWriter() -> b
+    org.jivesoftware.smack.PacketListener getReaderListener() -> c
+org.jivesoftware.smack.debugger.SmackDebugger -> c.b.a.a.b:
+    void userHasLogged(java.lang.String) -> a
+    java.io.Reader getReader() -> a
+    java.io.Writer getWriter() -> b
+    java.io.Reader newConnectionReader(java.io.Reader) -> a
+    java.io.Writer newConnectionWriter(java.io.Writer) -> a
+    org.jivesoftware.smack.PacketListener getReaderListener() -> c
+org.jivesoftware.smack.filter.AndFilter -> c.b.a.b.a:
+    java.util.List filters -> a
+    boolean accept(org.jivesoftware.smack.packet.Packet) -> a
+    java.lang.String toString() -> toString
+org.jivesoftware.smack.filter.PacketFilter -> c.b.a.b.b:
+    boolean accept(org.jivesoftware.smack.packet.Packet) -> a
+org.jivesoftware.smack.filter.PacketIDFilter -> c.b.a.b.c:
+    java.lang.String packetID -> a
+    boolean accept(org.jivesoftware.smack.packet.Packet) -> a
+    java.lang.String toString() -> toString
+org.jivesoftware.smack.filter.PacketTypeFilter -> c.b.a.b.d:
+    java.lang.Class packetType -> a
+    boolean accept(org.jivesoftware.smack.packet.Packet) -> a
+    java.lang.String toString() -> toString
+org.jivesoftware.smack.packet.Authentication -> c.b.a.c.a:
+    java.lang.String username -> a
+    java.lang.String password -> b
+    java.lang.String digest -> c
+    java.lang.String resource -> d
+    void setUsername(java.lang.String) -> a
+    java.lang.String getPassword() -> b
+    void setPassword(java.lang.String) -> b
+    java.lang.String getDigest() -> c
+    void setDigest(java.lang.String,java.lang.String) -> a
+    void setDigest(java.lang.String) -> c
+    java.lang.String getResource() -> d
+    void setResource(java.lang.String) -> d
+    java.lang.String getChildElementXML() -> a
+org.jivesoftware.smack.packet.Bind -> c.b.a.c.b:
+    java.lang.String resource -> a
+    java.lang.String jid -> b
+    void setResource(java.lang.String) -> a
+    java.lang.String getJid() -> b
+    void setJid(java.lang.String) -> b
+    java.lang.String getChildElementXML() -> a
+org.jivesoftware.smack.packet.DefaultPacketExtension -> c.b.a.c.c:
+    java.lang.String elementName -> a
+    java.lang.String namespace -> b
+    java.util.Map map -> c
+    java.lang.String toXML() -> a
+    java.util.Collection getNames() -> b
+    java.lang.String getValue(java.lang.String) -> a
+    void setValue(java.lang.String,java.lang.String) -> a
+org.jivesoftware.smack.packet.IQ -> c.b.a.c.d:
+    org.jivesoftware.smack.packet.IQ$Type type -> a
+    org.jivesoftware.smack.packet.IQ$Type getType() -> e
+    void setType(org.jivesoftware.smack.packet.IQ$Type) -> a
+    java.lang.String toXML() -> f
+    java.lang.String getChildElementXML() -> a
+org.jivesoftware.smack.packet.IQ$Type -> c.b.a.c.e:
+    org.jivesoftware.smack.packet.IQ$Type GET -> a
+    org.jivesoftware.smack.packet.IQ$Type SET -> b
+    org.jivesoftware.smack.packet.IQ$Type RESULT -> c
+    org.jivesoftware.smack.packet.IQ$Type ERROR -> d
+    java.lang.String value -> e
+    org.jivesoftware.smack.packet.IQ$Type fromString(java.lang.String) -> a
+    java.lang.String toString() -> toString
+org.jivesoftware.smack.packet.Message -> c.b.a.c.f:
+    org.jivesoftware.smack.packet.Message$Type type -> a
+    java.lang.String thread -> b
+    java.lang.String language -> c
+    java.util.Set subjects -> d
+    java.util.Set bodies -> e
+    void setType(org.jivesoftware.smack.packet.Message$Type) -> a
+    java.lang.String getSubject(java.lang.String) -> a
+    org.jivesoftware.smack.packet.Message$Subject getMessageSubject(java.lang.String) -> h
+    org.jivesoftware.smack.packet.Message$Subject addSubject(java.lang.String,java.lang.String) -> a
+    java.lang.String getBody() -> a
+    java.lang.String getBody(java.lang.String) -> b
+    org.jivesoftware.smack.packet.Message$Body getMessageBody(java.lang.String) -> i
+    org.jivesoftware.smack.packet.Message$Body addBody(java.lang.String,java.lang.String) -> b
+    void setThread(java.lang.String) -> c
+    void setLanguage(java.lang.String) -> d
+    java.lang.String determineLanguage(java.lang.String) -> j
+    java.lang.String toXML() -> f
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+org.jivesoftware.smack.packet.Message$1 -> c.b.a.c.g:
+    java.lang.String user -> a
+    java.lang.String name -> b
+    org.jivesoftware.smack.packet.RosterPacket$ItemType itemType -> c
+    org.jivesoftware.smack.packet.RosterPacket$ItemStatus itemStatus -> d
+    java.util.Set groupNames -> e
+    java.lang.String getUser() -> a
+    java.lang.String getName() -> b
+    org.jivesoftware.smack.packet.RosterPacket$ItemType getItemType() -> c
+    void setItemType(org.jivesoftware.smack.packet.RosterPacket$ItemType) -> a
+    org.jivesoftware.smack.packet.RosterPacket$ItemStatus getItemStatus() -> d
+    void setItemStatus(org.jivesoftware.smack.packet.RosterPacket$ItemStatus) -> a
+    java.util.Set getGroupNames() -> e
+    void addGroupName(java.lang.String) -> a
+    java.lang.String toXML() -> f
+org.jivesoftware.smack.packet.Message$Body -> c.b.a.c.h:
+    java.lang.String message -> a
+    java.lang.String language -> b
+    java.lang.String getLanguage() -> a
+    java.lang.String getMessage() -> b
+    int hashCode() -> hashCode
+    boolean equals(java.lang.Object) -> equals
+    java.lang.String access$300(org.jivesoftware.smack.packet.Message$Body) -> a
+    java.lang.String access$400(org.jivesoftware.smack.packet.Message$Body) -> b
+org.jivesoftware.smack.packet.Message$Subject -> c.b.a.c.i:
+    java.lang.String subject -> a
+    java.lang.String language -> b
+    int hashCode() -> hashCode
+    boolean equals(java.lang.Object) -> equals
+    java.lang.String access$000(org.jivesoftware.smack.packet.Message$Subject) -> a
+    java.lang.String access$100(org.jivesoftware.smack.packet.Message$Subject) -> b
+org.jivesoftware.smack.packet.Message$Type -> c.b.a.c.j:
+    org.jivesoftware.smack.packet.Message$Type normal -> a
+    org.jivesoftware.smack.packet.Message$Type chat -> c
+    org.jivesoftware.smack.packet.Message$Type groupchat -> d
+    org.jivesoftware.smack.packet.Message$Type headline -> e
+    org.jivesoftware.smack.packet.Message$Type error -> b
+    org.jivesoftware.smack.packet.Message$Type fromString(java.lang.String) -> a
+org.jivesoftware.smack.packet.Packet -> c.b.a.c.k:
+    java.lang.String DEFAULT_LANGUAGE -> a
+    java.lang.String DEFAULT_XML_NS -> b
+    java.text.DateFormat XEP_0082_UTC_FORMAT -> c
+    java.lang.String prefix -> d
+    long id -> e
+    java.lang.String xmlns -> f
+    java.lang.String packetID -> g
+    java.lang.String to -> h
+    java.lang.String from -> i
+    java.util.List packetExtensions -> j
+    java.util.Map properties -> k
+    org.jivesoftware.smack.packet.XMPPError error -> l
+    java.lang.String nextID() -> a
+    java.lang.String getPacketID() -> g
+    void setPacketID(java.lang.String) -> e
+    java.lang.String getTo() -> h
+    void setTo(java.lang.String) -> f
+    java.lang.String getFrom() -> i
+    void setFrom(java.lang.String) -> g
+    org.jivesoftware.smack.packet.XMPPError getError() -> j
+    void setError(org.jivesoftware.smack.packet.XMPPError) -> a
+    java.util.Collection getExtensions() -> k
+    void addExtension(org.jivesoftware.smack.packet.PacketExtension) -> a
+    java.lang.Object getProperty(java.lang.String) -> a
+    void setProperty(java.lang.String,java.lang.Object) -> a
+    java.util.Collection getPropertyNames() -> b
+    java.lang.String toXML() -> f
+    java.lang.String getExtensionsXML() -> l
+    java.lang.String getXmlns() -> m
+    java.lang.String getDefaultLanguage() -> n
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+org.jivesoftware.smack.packet.PacketExtension -> c.b.a.c.l:
+    java.lang.String toXML() -> a
+org.jivesoftware.smack.packet.Presence -> c.b.a.c.m:
+    org.jivesoftware.smack.packet.Presence$Type type -> a
+    java.lang.String status -> b
+    int priority -> c
+    org.jivesoftware.smack.packet.Presence$Mode mode -> d
+    java.lang.String language -> e
+    org.jivesoftware.smack.packet.Presence$Type getType() -> a
+    void setStatus(java.lang.String) -> a
+    void setPriority(int) -> a
+    void setMode(org.jivesoftware.smack.packet.Presence$Mode) -> a
+    void setLanguage(java.lang.String) -> b
+    java.lang.String toXML() -> f
+    java.lang.String toString() -> toString
+org.jivesoftware.smack.packet.Presence$Mode -> c.b.a.c.n:
+    org.jivesoftware.smack.packet.Presence$Mode chat -> b
+    org.jivesoftware.smack.packet.Presence$Mode available -> a
+    org.jivesoftware.smack.packet.Presence$Mode away -> c
+    org.jivesoftware.smack.packet.Presence$Mode xa -> d
+    org.jivesoftware.smack.packet.Presence$Mode dnd -> e
+    org.jivesoftware.smack.packet.Presence$Mode valueOf(java.lang.String) -> a
+org.jivesoftware.smack.packet.Presence$Type -> c.b.a.c.o:
+    org.jivesoftware.smack.packet.Presence$Type available -> a
+    org.jivesoftware.smack.packet.Presence$Type unavailable -> b
+    org.jivesoftware.smack.packet.Presence$Type subscribe -> c
+    org.jivesoftware.smack.packet.Presence$Type subscribed -> d
+    org.jivesoftware.smack.packet.Presence$Type unsubscribe -> e
+    org.jivesoftware.smack.packet.Presence$Type unsubscribed -> f
+    org.jivesoftware.smack.packet.Presence$Type error -> g
+    org.jivesoftware.smack.packet.Presence$Type valueOf(java.lang.String) -> a
+org.jivesoftware.smack.packet.Registration -> c.b.a.c.p:
+    java.lang.String instructions -> a
+    java.util.Map attributes -> b
+    java.util.List requiredFields -> c
+    boolean remove -> d
+    void setInstructions(java.lang.String) -> a
+    void addRequiredField(java.lang.String) -> b
+    void addAttribute(java.lang.String,java.lang.String) -> a
+    void setRegistered(boolean) -> a
+    java.lang.String getChildElementXML() -> a
+org.jivesoftware.smack.packet.RosterPacket -> c.b.a.c.q:
+    java.util.List rosterItems -> a
+    java.lang.String version -> b
+    void addRosterItem$23c1fde0(org.jivesoftware.smack.packet.Message$1) -> a
+    java.lang.String getVersion() -> b
+    void setVersion(java.lang.String) -> a
+    java.util.Collection getRosterItems() -> c
+    java.lang.String getChildElementXML() -> a
+org.jivesoftware.smack.packet.RosterPacket$ItemStatus -> c.b.a.c.r:
+    org.jivesoftware.smack.packet.RosterPacket$ItemStatus SUBSCRIPTION_PENDING -> a
+    org.jivesoftware.smack.packet.RosterPacket$ItemStatus UNSUBSCRIPTION_PENDING -> b
+    java.lang.String value -> c
+    org.jivesoftware.smack.packet.RosterPacket$ItemStatus fromString(java.lang.String) -> a
+    java.lang.String toString() -> toString
+org.jivesoftware.smack.packet.RosterPacket$ItemType -> c.b.a.c.s:
+    org.jivesoftware.smack.packet.RosterPacket$ItemType none -> b
+    org.jivesoftware.smack.packet.RosterPacket$ItemType to -> c
+    org.jivesoftware.smack.packet.RosterPacket$ItemType from -> d
+    org.jivesoftware.smack.packet.RosterPacket$ItemType both -> e
+    org.jivesoftware.smack.packet.RosterPacket$ItemType remove -> a
+    org.jivesoftware.smack.packet.RosterPacket$ItemType valueOf(java.lang.String) -> a
+org.jivesoftware.smack.packet.Session -> c.b.a.c.t:
+    java.lang.String getChildElementXML() -> a
+org.jivesoftware.smack.packet.StreamError -> c.b.a.c.u:
+    java.lang.String code -> a
+    java.lang.String toString() -> toString
+org.jivesoftware.smack.packet.XMPPError -> c.b.a.c.v:
+    int code -> a
+    org.jivesoftware.smack.packet.XMPPError$Type type -> b
+    java.lang.String condition -> c
+    java.lang.String message -> d
+    java.util.List applicationExtensions -> e
+    void init(org.jivesoftware.smack.packet.XMPPError$Condition) -> a
+    int getCode() -> a
+    java.lang.String toXML() -> b
+    java.lang.String toString() -> toString
+    java.util.List getExtensions() -> c
+org.jivesoftware.smack.packet.XMPPError$Condition -> c.b.a.c.w:
+    org.jivesoftware.smack.packet.XMPPError$Condition interna_server_error -> a
+    org.jivesoftware.smack.packet.XMPPError$Condition forbidden -> b
+    org.jivesoftware.smack.packet.XMPPError$Condition bad_request -> c
+    org.jivesoftware.smack.packet.XMPPError$Condition conflict -> d
+    org.jivesoftware.smack.packet.XMPPError$Condition feature_not_implemented -> e
+    org.jivesoftware.smack.packet.XMPPError$Condition gone -> f
+    org.jivesoftware.smack.packet.XMPPError$Condition item_not_found -> g
+    org.jivesoftware.smack.packet.XMPPError$Condition jid_malformed -> h
+    org.jivesoftware.smack.packet.XMPPError$Condition no_acceptable -> i
+    org.jivesoftware.smack.packet.XMPPError$Condition not_allowed -> j
+    org.jivesoftware.smack.packet.XMPPError$Condition not_authorized -> k
+    org.jivesoftware.smack.packet.XMPPError$Condition payment_required -> l
+    org.jivesoftware.smack.packet.XMPPError$Condition recipient_unavailable -> m
+    org.jivesoftware.smack.packet.XMPPError$Condition redirect -> n
+    org.jivesoftware.smack.packet.XMPPError$Condition registration_required -> o
+    org.jivesoftware.smack.packet.XMPPError$Condition remote_server_error -> p
+    org.jivesoftware.smack.packet.XMPPError$Condition remote_server_not_found -> q
+    org.jivesoftware.smack.packet.XMPPError$Condition remote_server_timeout -> r
+    org.jivesoftware.smack.packet.XMPPError$Condition resource_constraint -> s
+    org.jivesoftware.smack.packet.XMPPError$Condition service_unavailable -> t
+    org.jivesoftware.smack.packet.XMPPError$Condition subscription_required -> u
+    org.jivesoftware.smack.packet.XMPPError$Condition undefined_condition -> v
+    org.jivesoftware.smack.packet.XMPPError$Condition unexpected_request -> w
+    org.jivesoftware.smack.packet.XMPPError$Condition request_timeout -> x
+    java.lang.String value -> y
+    java.lang.String toString() -> toString
+    java.lang.String access$000(org.jivesoftware.smack.packet.XMPPError$Condition) -> a
+org.jivesoftware.smack.packet.XMPPError$ErrorSpecification -> c.b.a.c.x:
+    int code -> a
+    org.jivesoftware.smack.packet.XMPPError$Type type -> b
+    java.util.Map instances -> c
+    org.jivesoftware.smack.packet.XMPPError$ErrorSpecification specFor(org.jivesoftware.smack.packet.XMPPError$Condition) -> a
+    org.jivesoftware.smack.packet.XMPPError$Type getType() -> a
+    int getCode() -> b
+org.jivesoftware.smack.packet.XMPPError$Type -> c.b.a.c.y:
+    org.jivesoftware.smack.packet.XMPPError$Type WAIT -> a
+    org.jivesoftware.smack.packet.XMPPError$Type CANCEL -> b
+    org.jivesoftware.smack.packet.XMPPError$Type MODIFY -> c
+    org.jivesoftware.smack.packet.XMPPError$Type AUTH -> d
+    org.jivesoftware.smack.packet.XMPPError$Type CONTINUE -> e
+    org.jivesoftware.smack.packet.XMPPError$Type valueOf(java.lang.String) -> a
+org.jivesoftware.smack.provider.IQProvider -> c.b.a.d.a:
+    org.jivesoftware.smack.packet.IQ parseIQ$55e6ee06() -> a
+org.jivesoftware.smack.provider.PacketExtensionProvider -> c.b.a.d.b:
+    org.jivesoftware.smack.packet.PacketExtension parseExtension$43b3006f() -> a
+org.jivesoftware.smack.provider.ProviderManager -> c.b.a.d.c:
+    org.jivesoftware.smack.provider.ProviderManager instance -> a
+    java.util.Map extensionProviders -> b
+    java.util.Map iqProviders -> c
+    org.jivesoftware.smack.provider.ProviderManager getInstance() -> a
+    void initialize() -> b
+    java.lang.Object getIQProvider(java.lang.String,java.lang.String) -> a
+    java.lang.Object getExtensionProvider(java.lang.String,java.lang.String) -> b
+    java.lang.String getProviderKey(java.lang.String,java.lang.String) -> c
+org.jivesoftware.smack.proxy.DirectSocketFactory -> c.b.a.e.a:
+    java.net.Socket createSocket(java.lang.String,int) -> createSocket
+    java.net.Socket createSocket(java.lang.String,int,java.net.InetAddress,int) -> createSocket
+    java.net.Socket createSocket(java.net.InetAddress,int) -> createSocket
+    java.net.Socket createSocket(java.net.InetAddress,int,java.net.InetAddress,int) -> createSocket
+org.jivesoftware.smack.proxy.HTTPProxySocketFactory -> c.b.a.e.b:
+    org.jivesoftware.smack.proxy.ProxyInfo proxy -> a
+    java.util.regex.Pattern RESPONSE_PATTERN -> b
+    java.net.Socket createSocket(java.lang.String,int) -> createSocket
+    java.net.Socket createSocket(java.lang.String,int,java.net.InetAddress,int) -> createSocket
+    java.net.Socket createSocket(java.net.InetAddress,int) -> createSocket
+    java.net.Socket createSocket(java.net.InetAddress,int,java.net.InetAddress,int) -> createSocket
+    java.net.Socket httpProxifiedSocket(java.lang.String,int) -> a
+org.jivesoftware.smack.proxy.ProxyException -> c.b.a.e.c:
+org.jivesoftware.smack.proxy.ProxyInfo -> c.b.a.e.d:
+    java.lang.String proxyAddress -> a
+    int proxyPort -> b
+    java.lang.String proxyUsername -> c
+    java.lang.String proxyPassword -> d
+    org.jivesoftware.smack.proxy.ProxyInfo$ProxyType proxyType -> e
+    java.lang.String getProxyAddress() -> a
+    int getProxyPort() -> b
+    java.lang.String getProxyUsername() -> c
+    java.lang.String getProxyPassword() -> d
+    javax.net.SocketFactory getSocketFactory() -> e
+org.jivesoftware.smack.proxy.ProxyInfo$ProxyType -> c.b.a.e.e:
+    org.jivesoftware.smack.proxy.ProxyInfo$ProxyType NONE -> a
+    org.jivesoftware.smack.proxy.ProxyInfo$ProxyType HTTP -> b
+    org.jivesoftware.smack.proxy.ProxyInfo$ProxyType SOCKS4 -> c
+    org.jivesoftware.smack.proxy.ProxyInfo$ProxyType SOCKS5 -> d
+org.jivesoftware.smack.proxy.Socks4ProxySocketFactory -> c.b.a.e.f:
+    org.jivesoftware.smack.proxy.ProxyInfo proxy -> a
+    java.net.Socket createSocket(java.lang.String,int) -> createSocket
+    java.net.Socket createSocket(java.lang.String,int,java.net.InetAddress,int) -> createSocket
+    java.net.Socket createSocket(java.net.InetAddress,int) -> createSocket
+    java.net.Socket createSocket(java.net.InetAddress,int,java.net.InetAddress,int) -> createSocket
+    java.net.Socket socks4ProxifiedSocket(java.lang.String,int) -> a
+org.jivesoftware.smack.proxy.Socks5ProxySocketFactory -> c.b.a.e.g:
+    org.jivesoftware.smack.proxy.ProxyInfo proxy -> a
+    java.net.Socket createSocket(java.lang.String,int) -> createSocket
+    java.net.Socket createSocket(java.lang.String,int,java.net.InetAddress,int) -> createSocket
+    java.net.Socket createSocket(java.net.InetAddress,int) -> createSocket
+    java.net.Socket createSocket(java.net.InetAddress,int,java.net.InetAddress,int) -> createSocket
+    java.net.Socket socks5ProxifiedSocket(java.lang.String,int) -> a
+    void fill(java.io.InputStream,byte[],int) -> a
+org.jivesoftware.smack.sasl.SASLAnonymous -> c.b.a.f.a:
+    java.lang.String getName() -> a
+    void authenticate(java.lang.String,java.lang.String,org.apache.harmony.javax.security.auth.callback.CallbackHandler) -> a
+    void authenticate(java.lang.String,java.lang.String,java.lang.String) -> a
+    void authenticate() -> b
+    void challengeReceived(java.lang.String) -> a
+org.jivesoftware.smack.sasl.SASLCramMD5Mechanism -> c.b.a.f.b:
+    java.lang.String getName() -> a
+org.jivesoftware.smack.sasl.SASLDigestMD5Mechanism -> c.b.a.f.c:
+    java.lang.String getName() -> a
+org.jivesoftware.smack.sasl.SASLExternalMechanism -> c.b.a.f.d:
+    java.lang.String getName() -> a
+org.jivesoftware.smack.sasl.SASLGSSAPIMechanism -> c.b.a.f.e:
+    java.lang.String getName() -> a
+    void authenticate(java.lang.String,java.lang.String,org.apache.harmony.javax.security.auth.callback.CallbackHandler) -> a
+    void authenticate(java.lang.String,java.lang.String,java.lang.String) -> a
+org.jivesoftware.smack.sasl.SASLMechanism -> c.b.a.f.f:
+    org.jivesoftware.smack.SASLAuthentication saslAuthentication -> b
+    org.apache.harmony.javax.security.sasl.SaslClient sc -> a
+    java.lang.String authenticationId -> c
+    java.lang.String password -> d
+    java.lang.String hostname -> e
+    void authenticate(java.lang.String,java.lang.String,java.lang.String) -> a
+    void authenticate(java.lang.String,java.lang.String,org.apache.harmony.javax.security.auth.callback.CallbackHandler) -> a
+    void authenticate() -> b
+    void challengeReceived(java.lang.String) -> a
+    java.lang.String getName() -> a
+    org.jivesoftware.smack.SASLAuthentication getSASLAuthentication() -> c
+    void handle(org.apache.harmony.javax.security.auth.callback.Callback[]) -> a
+org.jivesoftware.smack.sasl.SASLMechanism$AuthMechanism -> c.b.a.f.g:
+    java.lang.String name -> a
+    java.lang.String authenticationText -> b
+    java.lang.String toXML() -> f
+org.jivesoftware.smack.sasl.SASLMechanism$Challenge -> c.b.a.f.h:
+    java.lang.String data -> a
+    java.lang.String toXML() -> f
+org.jivesoftware.smack.sasl.SASLMechanism$Failure -> c.b.a.f.i:
+    java.lang.String condition -> a
+    java.lang.String toXML() -> f
+org.jivesoftware.smack.sasl.SASLMechanism$Response -> c.b.a.f.j:
+    java.lang.String authenticationText -> a
+    java.lang.String toXML() -> f
+org.jivesoftware.smack.sasl.SASLMechanism$Success -> c.b.a.f.k:
+    java.lang.String data -> a
+    java.lang.String toXML() -> f
+org.jivesoftware.smack.sasl.SASLPlainMechanism -> c.b.a.f.l:
+    java.lang.String getName() -> a
+org.jivesoftware.smack.util.Base64 -> c.b.a.g.a:
+    byte[] _STANDARD_ALPHABET -> a
+    byte[] _STANDARD_DECODABET -> b
+    byte[] _URL_SAFE_ALPHABET -> c
+    byte[] _URL_SAFE_DECODABET -> d
+    byte[] _ORDERED_ALPHABET -> e
+    byte[] _ORDERED_DECODABET -> f
+    byte[] getAlphabet(int) -> c
+    byte[] getDecodabet(int) -> d
+    byte[] encode3to4(byte[],int,int,byte[],int,int) -> a
+    java.lang.String encodeBytes(byte[]) -> a
+    java.lang.String encodeBytes(byte[],int) -> a
+    java.lang.String encodeBytes(byte[],int,int,int) -> a
+    int decode4to3(byte[],int,byte[],int,int) -> b
+    byte[] decode(java.lang.String) -> a
+    byte[] decode(java.lang.String,int) -> a
+    byte[] access$000(int) -> a
+    byte[] access$100(int) -> b
+    int access$300(byte[],int,byte[],int,int) -> a
+    byte[] access$400(byte[],byte[],int,int) -> a
+org.jivesoftware.smack.util.Base64$OutputStream -> c.b.a.g.b:
+    boolean encode -> a
+    int position -> b
+    byte[] buffer -> c
+    int bufferLength -> d
+    int lineLength -> e
+    boolean breakLines -> f
+    byte[] b4 -> g
+    boolean suspendEncoding -> h
+    int options -> i
+    byte[] decodabet -> j
+    void write(int) -> write
+    void write(byte[],int,int) -> write
+    void close() -> close
+org.jivesoftware.smack.util.ObservableReader -> c.b.a.g.c:
+    java.io.Reader wrappedReader -> a
+    java.util.List listeners -> b
+    int read(char[],int,int) -> read
+    void close() -> close
+    int read() -> read
+    int read(char[]) -> read
+    long skip(long) -> skip
+    boolean ready() -> ready
+    boolean markSupported() -> markSupported
+    void mark(int) -> mark
+    void reset() -> reset
+    void addReaderListener$39052211(org.jivesoftware.smack.RosterListener) -> a
+    void removeReaderListener$39052211(org.jivesoftware.smack.RosterListener) -> b
+org.jivesoftware.smack.util.ObservableWriter -> c.b.a.g.d:
+    java.io.Writer wrappedWriter -> a
+    java.util.List listeners -> b
+    void write(char[],int,int) -> write
+    void flush() -> flush
+    void close() -> close
+    void write(int) -> write
+    void write(char[]) -> write
+    void write(java.lang.String) -> write
+    void write(java.lang.String,int,int) -> write
+    void notifyListeners(java.lang.String) -> a
+    void addWriterListener$44939bc1(org.jivesoftware.smack.RosterListener) -> a
+    void removeWriterListener$44939bc1(org.jivesoftware.smack.RosterListener) -> b
+org.jivesoftware.smack.util.PacketParserUtils -> c.b.a.g.e:
+    java.lang.String fromReg -> a
+    java.lang.String fromCity -> b
+    org.jivesoftware.smack.packet.Packet parseMessage(org.xmlpull.v1.XmlPullParser) -> a
+    java.lang.String parseContent(org.xmlpull.v1.XmlPullParser) -> f
+    org.jivesoftware.smack.packet.Presence parsePresence(org.xmlpull.v1.XmlPullParser) -> b
+    org.jivesoftware.smack.packet.IQ parseIQ(org.xmlpull.v1.XmlPullParser,org.jivesoftware.smack.Connection) -> a
+    java.util.Collection parseCompressionMethods(org.xmlpull.v1.XmlPullParser) -> c
+    java.util.Map parseProperties(org.xmlpull.v1.XmlPullParser) -> g
+    org.jivesoftware.smack.sasl.SASLMechanism$Failure parseSASLFailure(org.xmlpull.v1.XmlPullParser) -> d
+    org.jivesoftware.smack.packet.StreamError parseStreamError(org.xmlpull.v1.XmlPullParser) -> e
+    org.jivesoftware.smack.packet.XMPPError parseError(org.xmlpull.v1.XmlPullParser) -> h
+    org.jivesoftware.smack.packet.PacketExtension parsePacketExtension(java.lang.String,java.lang.String,org.xmlpull.v1.XmlPullParser) -> a
+    java.lang.String getLanguageAttribute(org.xmlpull.v1.XmlPullParser) -> i
+    java.lang.Object parseWithIntrospection(java.lang.String,java.lang.Class,org.xmlpull.v1.XmlPullParser) -> a
+org.jivesoftware.smack.util.PacketParserUtils$1 -> c.b.a.g.f:
+    java.lang.String getChildElementXML() -> a
+org.jivesoftware.smack.util.PacketParserUtils$2 -> c.b.a.g.g:
+    java.lang.String getChildElementXML() -> a
+org.jivesoftware.smack.util.StringUtils -> c.b.a.g.h:
+    char[] QUOTE_ENCODE -> a
+    char[] APOS_ENCODE -> b
+    char[] AMP_ENCODE -> c
+    char[] LT_ENCODE -> d
+    char[] GT_ENCODE -> e
+    java.security.MessageDigest digest -> f
+    java.util.Random randGen -> g
+    char[] numbersAndLetters -> h
+    java.lang.String parseName(java.lang.String) -> a
+    java.lang.String parseServer(java.lang.String) -> b
+    java.lang.String parseResource(java.lang.String) -> c
+    java.lang.String parseBareAddress(java.lang.String) -> d
+    java.lang.String escapeForXML(java.lang.String) -> e
+    java.lang.String hash(java.lang.String) -> f
+    java.lang.String encodeBase64(byte[]) -> a
+    byte[] decodeBase64(java.lang.String) -> g
+    java.lang.String randomString(int) -> a

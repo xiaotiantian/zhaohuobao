@@ -1,0 +1,50 @@
+public void ifSetNotify(){
+/*	protected void setNotiType(String title, String msg) {
+		setNotiType(R.drawable.logo, title, msg);		
+	}
+	
+
+	protected void setNotiType(int iconId, String title, String msg) {
+		Intent intent = new Intent();
+		intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+		PendingIntent appIntent = PendingIntent.getActivity(this, 0, intent, 0);
+		
+		Notification myNoti = new Notification();
+		myNoti.icon = iconId;
+		myNoti.tickerText = msg;
+		myNoti.defaults = Notification.DEFAULT_SOUND;
+		myNoti.flags |= Notification.FLAG_AUTO_CANCEL;
+		myNoti.setLatestEventInfo(this, title, msg, appIntent);
+		notiManager.notify(0, myNoti);
+		
+
+	}
+
+	protected void setNotiType2(int iconId, String title, String msg) {
+
+		Intent intent = new Intent();
+		intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+		PendingIntent appIntent = PendingIntent.getActivity(this, 0, intent, 0);
+		
+		ActivityManager am = (ActivityManager) this.getSystemService(ACTIVITY_SERVICE);
+		List<RunningTaskInfo> appTask = am.getRunningTasks(1);
+		
+		if (appTask.size() > 0	&& appTask.get(0).baseActivity.equals(intent.getComponent())) {
+
+			Notification myNoti = new Notification();
+			myNoti.icon = iconId;
+			myNoti.tickerText = msg;
+			myNoti.defaults = Notification.DEFAULT_SOUND;
+			myNoti.flags |= Notification.FLAG_AUTO_CANCEL;
+			myNoti.setLatestEventInfo(this, title, msg, appIntent);
+			notiManager.notify(0, myNoti);
+			
+		} else {
+
+			android.os.Message message=new android.os.Message();
+			message.what=1;
+			message.obj= new Date().toString() + msg;
+			ActFriends.hander.sendMessage(message);
+		}
+  }*/
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/BodyBg" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/verifyMarginTop"
+        android:gravity="center"
+        android:text="@string/welcome"
+        android:textColor="@color/HeadEdgeColor"
+        android:textSize="@dimen/verifyTextSize" />
+
+
+    <EditText
+        android:id="@+id/uPhone"
+        android:layout_width="@dimen/verifyEditWidth"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/verifyMarginTop"
+        android:layout_gravity="center"
+        android:hint="@string/pleaseinput"
+        android:inputType="phone" >
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/verifyBottomTop"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/toRegister"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ok"
+            android:textSize="@dimen/sureTextSize" />
+
+        <Button
+            android:id="@+id/onTrial"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tryuse"
+            android:textSize="@dimen/sureTextSize"  />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/verifyBottomTop"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            style="android:checkboxStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/readAndAgreed"
+            android:textSize="@dimen/readAndAgreed" />
+
+        <TextView
+            android:id="@+id/drivername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:linksClickable="true"
+            android:text="@string/serviceAndPrivacy"
+            android:textColor="@color/numc"
+            android:textSize="@dimen/readAndAgreed" />
+
+    </LinearLayout>
+
+</LinearLayout>

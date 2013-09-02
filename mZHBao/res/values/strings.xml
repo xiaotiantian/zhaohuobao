@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="goods">货源</string>
+    <string name="app_name">找货宝</string>
+    <string name="huabei">华北:</string>
+    <string name="bj">北京</string>
+    <string name="tj">天津</string>
+    <string name="hb">河北</string>
+    <string name="nm">内蒙古</string>
+    <string name="sx">山西</string>
+    <string name="sd">山东</string>
+    <string name="huadong">华东:</string>
+    <string name="sh">上海</string>
+    <string name="zj">浙江</string>
+    <string name="js">江苏</string>
+    <string name="ah">安徽</string>
+    <string name="huanan">华南:</string>
+    <string name="gd">广东</string>
+    <string name="fj">福建</string>
+    <string name="hn">海南</string>
+    <string name="gx">广西</string>
+    <string name="huazhong">华中:</string>
+    <string name="hub">湖北</string>
+    <string name="hun">湖南</string>
+    <string name="hen">河南</string>
+    <string name="jx">江西</string>
+    <string name="dongbei">东北:</string>
+    <string name="ln">辽宁</string>
+    <string name="hlj">黑龙江</string>
+    <string name="jl">吉林</string>
+    <string name="xibei">西北:</string>
+    <string name="shx">陕西</string>
+    <string name="gs">甘肃</string>
+    <string name="nx">宁夏</string>
+    <string name="qh">青海</string>
+    <string name="xj">新疆</string>
+    <string name="xinan">西南:</string>
+    <string name="cq">重庆</string>
+    <string name="sc">四川</string>
+    <string name="yn">云南</string>
+    <string name="nz">贵州</string>
+    <string name="xz">西藏</string>
+    <string name="xuanze">请选择目的地</string>
+    <string name="selectProvince">请选择出发省份</string>
+    <string name="selectCity">请选择出发城市</string>
+
+    <string name="soft_about">关于我们</string>
+    <string name="soft_exit">退出系统</string>
+    <string name="soft_update">软件更新</string>
+    <string name="exit_zhbao">退出找货宝</string>
+    
+    <string name="dqcity">当前城市：</string>
+    <string name="btPrice">价格最高</string>
+    <string name="btTime">最新发布</string>
+    <string name="btCity">选择城市</string>
+    <string name="msg_in_notify">有新信息</string>
+
+    <string name="welcome">欢迎您使用找货宝</string>
+    <string name="pleaseinput">请输入你的手机号码</string>
+    <string name="ok">确定</string>
+    <string name="tryuse">试用</string>
+    <string name="back">返回</string>
+    <string name="fenxiang">分享</string>
+    <string name="fenxiangapp">分享该软件</string>
+
+    <string name="fengXiang">伙计！我正在使用“找货宝”，可以查找全国的货运信息，你也试试吧！http://down.zhaohuobao.cn/ZHBao.apk</string>
+    <string name="fengXiangxx">该信息来自【找货宝】，http://down.zhaohuobao.cn/ZHBao.apk</string>
+    
+    <string name="smsto">10669588</string>
+    <string name="sms_body">5137</string>
+    
+    <string name="getMsg">根据不同的网络情况，验证可能需要花费一些时间，请耐心等待…</string>
+    <string name="regMsg">如果您觉得本软件对您查找货源有帮助，请发送短信5137到10669588订购，每月只需10元。谢谢！</string>
+    
+    <string name="tuoguaxml">拖挂轮轴</string>
+    <string name="huoxiangxml">货箱结构</string>
+    
+    <string-array name="tuogualunzhou">
+        <item>半挂一拖二</item>
+        <item>半挂一拖三</item>
+        <item>半挂二拖二</item>
+        <item>半挂二拖三</item>
+        <item>前四后四半挂</item>
+        <item>前四后四</item>
+        <item>前四后六</item>
+        <item>前四后八</item>
+        <item>前四后十</item>
+        <item>后八轮</item>
+        <item>五轮车</item>
+        <item>单桥</item>
+        <item>双桥</item>
+        <item>五桥</item>
+        <item>六桥</item>
+        <item>七桥</item>
+        <item>八桥</item>
+        <item>九桥</item>
+        <item>全挂</item>
+        <item>其他轮轴</item>
+        
+    </string-array>
+      
+    <string-array name="huoxiangjiegou">
+        <item>普通</item>
+        <item>平板</item>
+        <item>高低平板</item>
+        <item>箱式</item>
+        <item>封闭</item>
+        <item>开顶箱</item>
+        <item>罐式</item>
+        <item>集装箱</item>
+        <item>自卸</item>
+        <item>高栏</item>
+        <item>轴线板</item>
+        <item>满轮车</item>
+        <item>框架板</item>
+        <item>高低高板</item>
+        <item>抽接班</item>
+        <item>簸箕板</item>
+        <item>超低板</item>
+        <item>笼子板</item>
+        <item>叶片车</item>
+        <item>其他结构</item>
+    </string-array>
+    
+    <string name="add">添加</string>
+    <string name="reject">拒绝</string>
+    <string name="backReturn">返回</string>
+    <string name="cancle">取消</string>
+    <string name="addFriend">添加好友</string>
+    <string name="personnalInfo">个人信息</string>
+    <string name="search">搜索</string>
+    <string name="friendApply">好友申请</string>
+    <string name="send">发送</string>
+    <string name="chatInput">请输入发送内容</string>
+    <string name="pic">图片</string>
+    <string name="record">语音</string>
+    <string name="setUp">设置</string>
+    
+    <string name="name">姓名:</string>
+    <string name="signature">电话:</string>
+    <string name="usrInfo">个人资料</string>
+    <string name="sex">性别:</string>
+    <string name="birthday">生日:</string>
+    <string name="place">所在地:</string>
+    <string name="systemSetting">系统设置</string>
+    <string name="feedback">帮助与反馈</string>
+    <string name="quitLogging">退出登录</string>
+    <string name="aboutZHBao">关于找货宝</string>
+    <string name="vStatus">状态:</string>
+    <string name="unfull">半载</string>
+    <string name="empty">空载</string>
+    <string name="full">满载</string>
+    <string name="vehicleInfo">车辆信息</string>
+    <string name="goodsInfo">货物信息</string>
+    <string name="addVehicle">增加车辆信息</string>
+    <string name="vehicleCard">车牌:</string>
+    <string name="vehicleNumber">车牌号码：</string>
+    <string name="modify">修改</string>
+    <string name="phoneInfo">随车电话 :</string>
+    <string name="vehicleLength">车长:</string>
+    <string name="vehicleWeight">吨位:</string>
+    <string name="vehicleLunzhou">拖挂轮轴:</string>
+    <string name="vehicleArchture">货箱结构:</string>
+    <string name="vehiclePath">线路:</string>
+    <string name="pleaseInput">请输入你收到的验证码</string>
+    <string name="usrName">用户名</string>
+    <string name="usrAddress">住址</string>
+    
+    <string name="inputName">请输入名称</string>
+    <string name="delFriTitle">你确定要删除以下联系人吗？</string>
+    <string name="delGroupTitle">你确定要删除以下分组吗？</string>
+    <string name="delFriBoth">将我从对方的列表中删除</string>
+    <string name="readAndAgreed">已阅读并同意</string>
+    <string name="serviceAndPrivacy">服务条款与隐私声明。</string>
+    <string name="moreInfo">获取更多信息</string>
+    <string name="defaultMood">Q我吧，期待...</string>
+    
+    <string name="releaseVehicle">发车</string>
+    <string name="message">消息</string>
+    
+    
+    
+</resources>

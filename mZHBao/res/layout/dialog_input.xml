@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dialogWidth" 
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"  
+    android:orientation="vertical"  
+    android:background="@drawable/confirm_dialog_bg2">
+    
+    <TextView  
+         android:id="@+id/titleText"
+         android:layout_width="match_parent"  
+         android:layout_height="wrap_content"  
+         android:layout_marginTop="@dimen/dialogTitleMarginTop"  
+         android:padding="@dimen/dialogTitlePadding"  
+         android:textColor="@color/HeadCenterColor"  
+         android:textSize="@dimen/dialogTitleSize"  
+         android:text="@string/inputName" 
+         android:gravity="center_horizontal"
+         />
+     <EditText
+         android:id="@+id/inputText"
+         android:layout_marginTop="@dimen/dialogInputMarginTop"
+         android:layout_width="match_parent"
+         android:layout_height="@dimen/searchEditSize"
+         android:layout_marginLeft="@dimen/searchEditMarginLeft"
+         android:layout_marginRight="@dimen/searchEditMarginRight"
+         android:background="@drawable/dialog_input_editbg"
+         android:singleLine="true"
+         android:hint="@string/inputName" 
+         android:textColor="@color/white"
+          />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dialogLayoutMarginTop"  
+        android:layout_marginBottom="@dimen/dialogLayoutMarginBottom" 
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/sure"
+            android:layout_width="@dimen/dialogBtnWidth"  
+            android:layout_height="wrap_content"  
+            android:text="@string/ok"  
+            android:textSize="@dimen/dialogContentSize"  
+            android:textColor="@color/sureColor"  
+            android:background="@drawable/btn_cancle"  
+            android:gravity="center"  />
+        <Button
+            android:id="@+id/cancle"
+            android:layout_width="@dimen/dialogBtnWidth"  
+            android:layout_height="wrap_content"  
+            android:layout_marginLeft="@dimen/dialogMarginCenter"  
+            android:text="@string/cancle"  
+            android:textSize="@dimen/dialogContentSize"  
+            android:textColor="@color/cancleColor"  
+            android:background="@drawable/btn_cancle"  
+            android:gravity="center" />
+    </LinearLayout>
+</LinearLayout>

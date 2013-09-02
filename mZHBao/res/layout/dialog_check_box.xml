@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dialogWidth" 
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"  
+    android:orientation="vertical"  
+    android:background="@drawable/dialog_check_bg">
+    
+    <TextView  
+         android:id="@+id/titleText"
+         android:layout_width="match_parent"  
+         android:layout_height="wrap_content"  
+         android:layout_marginTop="@dimen/dialogTitleMarginTop"  
+         android:padding="@dimen/dialogTitlePadding"  
+         android:textColor="@color/dialogTitleColor"  
+         android:textSize="@dimen/dialogTitleSize"  
+         android:gravity="center_horizontal"
+         />
+     <RadioGroup  
+        android:id = "@+id/CheckGroup"  
+        android:layout_width = "wrap_content"  
+        android:layout_height = "wrap_content"  
+        android:orientation = "vertical"  
+        android:gravity="center"
+        >  
+         
+        <RadioButton  
+            android:id = "@+id/emptyBtn"  
+            android:layout_width = "wrap_content"  
+            android:layout_height = "wrap_content"  
+            android:text = "@string/empty"
+            android:textColor="@color/dialogContentColor"
+            android:drawablePadding="@dimen/dialogdrawablePadding"
+            android:drawableRight="@drawable/empty_60_40"
+            />  
+        <RadioButton  
+            android:id = "@+id/unfullBtn"  
+            android:layout_width = "wrap_content"  
+            android:layout_height = "wrap_content"  
+            android:text = "@string/unfull"
+            android:textColor="@color/dialogContentColor"
+            android:drawablePadding="@dimen/dialogdrawablePadding"
+            android:drawableRight="@drawable/unfull_60_40"
+            />  
+   
+        <RadioButton  
+            android:id = "@+id/fullBtn"  
+            android:layout_width = "wrap_content"  
+            android:layout_height = "wrap_content"  
+            android:text = "@string/full"
+            android:textColor="@color/dialogContentColor"
+            android:drawablePadding="@dimen/dialogdrawablePadding"
+            android:drawableRight="@drawable/full_60_40"
+            />  
+    </RadioGroup>
+    
+</LinearLayout>

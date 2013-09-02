@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="@dimen/sharePadding" 
+    android:background="@drawable/body_bg">
+ 
+    
+    <TextView
+        android:id="@+id/depname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textSize="@dimen/shareNumSize" />
+
+   <TextView
+        android:id="@+id/datatime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/depname"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/shareDateSize" />
+    <TextView
+        android:id="@+id/msginfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/depname"
+        android:layout_below="@+id/depname"
+        android:textColor="@color/white"
+        android:textSize="@dimen/shareMsgInfoSize" />
+
+    <TextView
+        android:id="@+id/infoNbr1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/depname"
+        android:layout_below="@+id/msginfo"
+        android:textColorLink="@color/shareNumlink"
+         android:textStyle="bold"
+        android:textSize="@dimen/shareNumSize" />
+
+    <TextView
+        android:id="@+id/infoNbr3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/infoNbr1"
+        android:layout_below="@+id/infoNbr1"
+         android:textColorLink="@color/shareNumlink"
+         android:textStyle="bold"
+        android:textSize="@dimen/shareNumSize" />
+
+    <TextView
+        android:id="@+id/infoNbr2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/datatime"
+        android:layout_below="@+id/msginfo"
+        android:textColorLink="@color/shareNumlink"
+        android:textStyle="bold"
+        android:textSize="@dimen/shareNumSize" />
+	
+
+	<TextView
+	    android:id="@+id/sharenum"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBottom="@+id/fenxiang"
+	    android:layout_toLeftOf="@+id/fenxiang"
+	    android:textSize="@dimen/shareNumSize" />
+	
+	<TextView
+        android:id="@+id/fenxiang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/datatime"
+        android:layout_below="@+id/infoNbr1"
+        android:text="@string/fenxiang"
+        android:textColor="@color/HeadEdgeColor"
+        android:textSize="@dimen/fenxiangTextSize" />
+
+</RelativeLayout>

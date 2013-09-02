@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	<LinearLayout
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left" >
+        <Button
+            android:id="@+id/btcTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/btTitleSize"
+            android:background="@color/btTitleBackGround"
+            android:text="@string/xuanze"
+            android:textColor="@color/provinceColor"
+            android:textSize="@dimen/cityHeadSize" />
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/cityItemHeight" >
+            <Button
+                android:id="@+id/btCity1"
+                android:layout_width="@dimen/cityWidth"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cityBackGround"
+                android:textColor="@color/CityColor"
+                android:textSize="@dimen/citySize" />
+            <Button
+                android:id="@+id/btCity2"
+                android:layout_width="@dimen/cityWidth"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cityBackGround"
+                android:textColor="@color/CityColor"
+                android:textSize="@dimen/citySize" />
+            <Button
+                android:id="@+id/btCity3"
+                android:layout_width="@dimen/cityWidth"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cityBackGround"
+                android:textColor="@color/CityColor"
+                android:textSize="@dimen/citySize" />
+      </LinearLayout>
+      <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/cityItemHeight" >
+            <Button
+                android:id="@+id/btCity4"
+                android:layout_width="@dimen/cityWidth"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cityBackGround"
+                android:textColor="@color/CityColor"
+                android:textSize="@dimen/citySize" />
+            <Button
+                android:id="@+id/btCity5"
+                android:layout_width="@dimen/cityWidth"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cityBackGround"
+                android:textColor="@color/CityColor"
+                android:textSize="@dimen/citySize" />
+            <Button
+                android:id="@+id/btCity6"
+                android:layout_width="@dimen/cityWidth"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cityBackGround"
+                android:textColor="@color/CityColor"
+                android:textSize="@dimen/citySize" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/cityItemHeight" >
+            <Button
+                android:id="@+id/btCity7"
+                android:layout_width="@dimen/cityWidth"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cityBackGround"
+                android:textColor="@color/CityColor"
+                android:textSize="@dimen/citySize" />
+            <Button
+                android:id="@+id/btCity8"
+                android:layout_width="@dimen/cityWidth"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cityBackGround"
+                android:textColor="@color/CityColor"
+                android:textSize="@dimen/citySize" />
+            <Button
+                android:id="@+id/btCity9"
+                android:layout_width="@dimen/cityWidth"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cityBackGround"
+                android:textColor="@color/CityColor"
+                android:textSize="@dimen/citySize" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/cityItemHeight" >
+            <Button
+                android:id="@+id/btCity10"
+                android:layout_width="@dimen/cityWidth"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cityBackGround"
+                android:textColor="@color/CityColor"
+                android:textSize="@dimen/citySize" />
+            <Button
+                android:id="@+id/btCity11"
+                android:layout_width="@dimen/cityWidth"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cityBackGround"
+                android:textColor="@color/CityColor"
+                android:textSize="@dimen/citySize" />
+            <Button
+                android:id="@+id/btCity12"
+                android:layout_width="@dimen/cityWidth"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cityBackGround"
+                android:textColor="@color/CityColor"
+                android:textSize="@dimen/citySize" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/cityItemHeight" >
+            <Button
+                android:id="@+id/btCity13"
+                android:layout_width="@dimen/cityWidth"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cityBackGround"
+                android:textColor="@color/CityColor"
+                android:textSize="@dimen/citySize" />
+            <Button
+                android:id="@+id/btCity14"
+                android:layout_width="@dimen/cityWidth"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cityBackGround"
+                android:textColor="@color/CityColor"
+                android:textSize="@dimen/citySize" />
+
+            <Button
+                android:id="@+id/btCity15"
+                android:layout_width="@dimen/cityWidth"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cityBackGround"
+                android:textColor="@color/CityColor"
+                android:textSize="@dimen/citySize" />
+		</LinearLayout>		<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/cityItemHeight" >
+            <Button
+                android:id="@+id/btCity16"
+                android:layout_width="@dimen/cityWidth"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cityBackGround"
+                android:textColor="@color/CityColor"
+                android:textSize="@dimen/citySize" />
+            <Button
+                android:id="@+id/btCity17"
+                android:layout_width="@dimen/cityWidth"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cityBackGround"
+                android:textColor="@color/CityColor"
+                android:textSize="@dimen/citySize" />
+            <Button
+                android:id="@+id/btCity18"
+                android:layout_width="@dimen/cityWidth"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cityBackGround"
+                android:textColor="@color/CityColor"
+                android:textSize="@dimen/citySize" />
+		</LinearLayout>
+		<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/cityItemHeight" >
+            <Button
+                android:id="@+id/btCity19"
+                android:layout_width="@dimen/cityWidth"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cityBackGround"
+                android:textColor="@color/CityColor"
+                android:textSize="@dimen/citySize" />
+            <Button
+                android:id="@+id/btCity20"
+                android:layout_width="@dimen/cityWidth"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cityBackGround"
+                android:textColor="@color/CityColor"
+                android:textSize="@dimen/citySize" />
+            <Button
+                android:id="@+id/btCity21"
+                android:layout_width="@dimen/cityWidth"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cityBackGround"
+                android:textColor="@color/CityColor"
+                android:textSize="@dimen/citySize" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/cityItemHeight" >
+            <Button
+                android:id="@+id/btCity22"
+                android:layout_width="@dimen/cityWidth"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cityBackGround"
+                android:textColor="@color/CityColor"
+                android:textSize="@dimen/citySize" />
+            <Button
+                android:id="@+id/btCity23"
+                android:layout_width="@dimen/cityWidth"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cityBackGround"
+                android:textColor="@color/CityColor"
+                android:textSize="@dimen/citySize" />
+            <Button
+                android:id="@+id/btCity24"
+                android:layout_width="@dimen/cityWidth"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cityBackGround"
+                android:textColor="@color/CityColor"
+                android:textSize="@dimen/citySize" />
+        </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@color/BodyBg"
+    >
+    <RelativeLayout
+        android:id="@+id/actAddFriHead"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/headHeight"
+        android:background="@drawable/title_bar" >
+         <Button
+            android:id="@+id/goback_button"
+            android:layout_width="@dimen/headEdgeWidth"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/top_back_btn"
+            android:text="@string/backReturn"
+            android:textColor="@color/HeadEdgeColor"
+            android:textSize="@dimen/headEdgeTextSize" />
+        <TextView
+            android:id="@+id/friend_list_myName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/addFriend"
+            android:textColor="@color/HeadCenterColor"
+            android:textSize="@dimen/headCenterTextSize" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/RelativeLayout02"
+        android:layout_marginLeft="@dimen/searchEditMarginLeft"
+        android:layout_marginRight="@dimen/searchEditMarginRight"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/searchEditSize"
+        android:layout_marginTop="@dimen/searchEditMarginTop"
+        android:gravity="center_horizontal" 
+        >
+          
+            <Button
+                android:id="@+id/search_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/search_btn"
+                android:text="@string/search">
+            </Button>
+              <EditText
+                android:id="@+id/search_text"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/searchEditSize"
+                android:layout_marginLeft="@dimen/searchEditMarginLeft"
+                android:layout_marginRight="@dimen/searchEditMarginRight"
+                android:layout_toLeftOf="@id/search_button"
+                android:background="@drawable/search_bar_bg"
+                android:drawableLeft="@drawable/search_icon"
+                android:singleLine="true"
+                android:textStyle="bold" >
+            </EditText>
+    </RelativeLayout>
+     <RelativeLayout
+            android:id="@+id/RelativeLayout03"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/searchResultMarginLeft"
+            android:layout_marginRight="@dimen/searchResultMarginRight"
+            android:layout_marginTop="@dimen/searchResultMarginTop" >
+      		 
+                <ListView
+                    android:id="@+id/searchlist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:divider="@null" />
+           		
+       </RelativeLayout>
+</LinearLayout>

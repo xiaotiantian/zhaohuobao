@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+        android:id="@+id/exit_layout"  
+        android:layout_width="@dimen/dialogWidth"  
+        android:layout_height="wrap_content"  
+        android:gravity="center_horizontal"  
+        android:orientation="vertical"  
+        android:background="@drawable/confirm_dialog_bg2" >  
+  
+        <TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:layout_marginTop="@dimen/dialogTitleMarginTop"  
+            android:padding="@dimen/dialogTitlePadding"  
+            android:textColor="@color/HeadCenterColor"  
+            android:textSize="@dimen/dialogTitleSize"  
+            android:text="@string/friendApply" />  
+          
+        <TextView  
+            android:id="@+id/applyContent"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textColor="@color/applyContentColor"  
+            android:layout_marginTop="@dimen/dialogContentMarginTop"  
+            android:padding="@dimen/dialogPadding"  
+            android:textSize="@dimen/dialogContentSize"  
+            android:gravity="center_horizontal"  
+             />   
+          
+  
+        <LinearLayout  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"             
+            android:layout_marginTop="@dimen/dialogLayoutMarginTop"  
+            android:layout_marginBottom="@dimen/dialogLayoutMarginBottom"  
+             >  
+              
+            <Button  
+              android:id="@+id/applyAgree"  
+              android:layout_width="@dimen/dialogBtnWidth"  
+              android:layout_height="wrap_content"  
+              android:text="@string/add"  
+              android:textSize="@dimen/dialogContentSize"  
+              android:textColor="@color/sureColor"  
+              android:background="@drawable/btn_cancle"  
+              android:gravity="center"  
+              />  
+              
+            <Button  
+              android:id="@+id/applyReject"  
+              android:layout_width="@dimen/dialogBtnWidth"  
+              android:layout_height="wrap_content"  
+              android:layout_marginLeft="@dimen/dialogMarginCenter"  
+              android:text="@string/reject"  
+              android:textSize="@dimen/dialogContentSize"  
+              android:textColor="@color/cancleColor"  
+              android:background="@drawable/btn_cancle"  
+              android:gravity="center"  
+              />  
+        </LinearLayout>  
+  
+    </LinearLayout>  

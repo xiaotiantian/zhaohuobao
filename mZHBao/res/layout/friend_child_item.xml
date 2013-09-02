@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+    <ImageView 
+        android:id="@+id/friend_icon"
+        android:layout_width="@dimen/ListPhotoSize"
+        android:layout_height="@dimen/ListPhotoSize"
+        android:layout_margin="@dimen/ListMargin"
+        android:background="@drawable/ic_launcher"/>
+	<TextView 
+	    android:id="@+id/friend_nickname"
+	    android:layout_width="fill_parent"
+	    android:layout_toRightOf="@id/friend_icon"
+	    android:paddingTop="@dimen/ListPadding"
+	    android:layout_height="wrap_content"
+	    android:textSize="@dimen/nicknameTextSize"
+	    />
+	<TextView 
+	    android:id="@+id/friend_mood"
+	    android:layout_width="fill_parent"
+	    android:layout_toRightOf="@id/friend_icon"
+	    android:layout_below="@id/friend_nickname"
+	    android:layout_height="wrap_content"
+	    android:textSize="@dimen/moodTextSize"
+	    android:text="@string/defaultMood"/>
+	<ImageView 
+	    android:layout_below="@id/friend_icon"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/interval_line"/>
+</RelativeLayout>

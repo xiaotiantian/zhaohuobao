@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tabBackGround">#000000</color>
+    <color name="quitColor">#FF6347</color>
+    <color name="quitBg">#FF0000</color>
+    
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blue">#0000FF</color>
+    <color name="Grey">#BEBEBE</color>
+    <color name="darkGrey">#A9A9A9</color>
+    <color name="listitemPressBg">#000000</color>
+    <color name="listitemNormalBg">#3C3C3C</color>
+    
+    <color name="selectPlace">#ADAAAD</color>
+    <color name="presentCity">#FFFFFF</color>
+    <color name="areaBackGround">#4D4D4D</color>
+    <color name="areaColor">#eee</color>
+    <color name="btTitleBackGround">#000000</color>
+    <color name="provinceBackGround">#4D4D4D</color>
+    <color name="provinceColor">#FFFFFF</color>
+    <color name="cityBackGround">#4D4D4D</color>
+    <color name="CityColor">#FFFFFF</color>
+    <color name="numc">#FFD700</color>
+    
+    <color name="chatUsrId">#818181</color>
+    <color name="chatMsg">#000000</color>
+    <color name="chatDate">#666</color>
+    <color name="chatBottomBG">#FFEEEE</color>
+    <color name="chatContentBG">#FFFFFF</color>
+    <color name="chatBackGround">#FFFFFF</color>
+    <color name="UsrItemColor">#FFFFFF</color>
+    <color name="messageBg_normal">#3C3C3C</color>
+    <color name="messageBg_pressed">#000000</color>
+    <color name="messageShortColor">#666</color>
+    <color name="messageDate">#666</color>
+    <color name="messageUsrId">#FFFFFF</color>
+    
+    <color name="moreInfo">#32c8c8</color>
+    <color name="imageShowerBG">#000000</color>
+    <color name="shareNumlink">#ADADAA</color>
+    
+    <color name="splashStartColor">#FFFFFF</color>
+    <color name="showInfoHeadBg">#ffcccc</color>
+    
+    <color name="BodyBg">#4D4D4D</color> <!--  灰不溜秋-->
+    <color name="BodyText">#ffffff</color>
+    <color name="TitleBg">#A9A9A9</color>
+    <color name="HeadEdgeColor">#fff</color>
+    <color name="HeadCenterColor">#ffffff</color>
+    
+    <color name="applyContentColor">#333</color>
+    <color name="sureColor">#fff</color>
+    <color name="cancleColor">#333</color>
+    
+    <color name="dialogInputBg">#000000</color>
+    <color name="dialogTitleColor">#000000</color>
+    <color name="dialogContentColor">#000000</color>
+    
+    
+</resources>

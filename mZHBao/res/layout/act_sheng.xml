@@ -1,0 +1,1177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@color/BodyBg">
+	<RelativeLayout
+      android:id="@+id/LayoutOfHead"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/headHeight"
+      android:orientation="horizontal"
+      android:background="@drawable/title_bar" >
+     <TextView
+         android:id="@+id/provinceTitle"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerInParent="true"
+         android:text="@string/selectProvince"
+         android:textColor="@color/HeadCenterColor"
+         android:textSize="@dimen/headCenterTextSize" />
+
+    </RelativeLayout>
+	
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/SelectMarginTop"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btsHuabei"
+            android:layout_width="@dimen/areaWidth"
+            android:layout_height="@dimen/areaHeight"
+            android:text="@string/huabei"
+            android:background="@color/areaBackGround"
+            android:textColor="@color/areaColor"
+            android:textSize="@dimen/Province" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/ProvinceHeight"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="@dimen/ProvinceWidth"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:id="@+id/btsBeijing"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/provinceBackGround"
+                        android:text="@string/bj"
+                        android:textColor="@color/provinceColor"
+                        android:textSize="@dimen/Province" />
+
+                    <TextView
+                        android:id="@+id/btsBeijing_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/btsBeijing"
+                        android:layout_toRightOf="@id/btsBeijing"
+                        android:maxLength="3" 
+                        android:textColor="@color/numc"
+                        android:textSize="@dimen/cornerNumSize" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="@dimen/ProvinceWidth"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:id="@+id/btsTianjin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/provinceBackGround"
+                        android:text="@string/tj"
+                        android:textColor="@color/provinceColor"
+                        android:textSize="@dimen/Province" />
+
+                    <TextView
+                        android:id="@+id/btsTianjin_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/btsTianjin"
+                        android:layout_toRightOf="@id/btsTianjin"
+                        android:maxLength="3"
+                        android:textColor="@color/numc"
+                        android:textSize="@dimen/cornerNumSize" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="@dimen/ProvinceWidth"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:id="@+id/btsHebei"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/provinceBackGround"
+                        android:text="@string/hb"
+                        android:textColor="@color/provinceColor"
+                        android:textSize="@dimen/Province" />
+
+                    <TextView
+                        android:id="@+id/btsHebei_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/btsHebei"
+                        android:layout_toRightOf="@id/btsHebei"
+                        android:maxLength="3"
+                        android:textColor="@color/numc"
+                        android:textSize="@dimen/cornerNumSize" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="@dimen/ProvinceWidth"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:id="@+id/btsShanxi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/provinceBackGround"
+                        android:text="@string/sx"
+                        android:textColor="@color/provinceColor"
+                        android:textSize="@dimen/Province" />
+
+                    <TextView
+                        android:id="@+id/btsShanxi_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/btsShanxi"
+                        android:layout_toRightOf="@id/btsShanxi"
+                        android:maxLength="3"
+                        android:textColor="@color/numc"
+                        android:textSize="@dimen/cornerNumSize" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/ProvinceHeight"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="@dimen/ProvinceWidth"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:id="@+id/btsSandong"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/provinceBackGround"
+                        android:text="@string/sd"
+                        android:textColor="@color/provinceColor"
+                        android:textSize="@dimen/Province" />
+
+                    <TextView
+                        android:id="@+id/btsSandong_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/btsSandong"
+                        android:layout_toRightOf="@id/btsSandong"
+                        android:maxLength="3"
+                        android:textColor="@color/numc"
+                        android:textSize="@dimen/cornerNumSize"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:id="@+id/btsNeimeng"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/provinceBackGround"
+                        android:text="@string/nm"
+                        android:textColor="@color/provinceColor"
+                        android:textSize="@dimen/Province" />
+
+                    <TextView
+                        android:id="@+id/btsNeimeng_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/btsNeimeng"
+                        android:layout_toRightOf="@id/btsNeimeng"
+                        android:maxLength="3"
+                        android:textColor="@color/numc"
+                        android:textSize="@dimen/cornerNumSize"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="@dimen/ProvinceWidth"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/provinceBackGround"
+                        android:textColor="@color/provinceColor"
+                        android:textSize="@dimen/Province" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLength="5"
+                        android:textColor="@color/numc"
+                        android:textSize="@dimen/cornerNumSize" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="@dimen/ProvinceWidth"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/provinceBackGround"
+                        android:textColor="@color/provinceColor"
+                        android:textSize="@dimen/Province" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLength="5"
+                        android:textColor="@color/numc"
+                        android:textSize="@dimen/cornerNumSize" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btsHuadong"
+            android:layout_width="@dimen/areaWidth"
+            android:layout_height="@dimen/areaHeight"
+            android:layout_gravity="center_vertical"
+            android:background="@color/provinceBackGround"
+            android:text="@string/huadong"
+            android:textColor="@color/areaColor"
+            android:textSize="@dimen/Province" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/ProvinceHeight"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="@dimen/ProvinceWidth"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" >
+
+                <Button
+                    android:id="@+id/btsShanghai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/provinceBackGround"
+                    android:text="@string/sh"
+                    android:textColor="@color/provinceColor"
+                    android:textSize="@dimen/Province" />
+
+                <TextView
+                    android:id="@+id/btsShanghai_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/btsShanghai"
+                    android:layout_toRightOf="@id/btsShanghai"
+                    android:maxLength="3"
+                    android:textColor="@color/numc"
+                    android:textSize="@dimen/cornerNumSize" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="@dimen/ProvinceWidth"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" >
+
+                <Button
+                    android:id="@+id/btsAnhui"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/provinceBackGround"
+                    android:text="@string/ah"
+                    android:textColor="@color/provinceColor"
+                    android:textSize="@dimen/Province" />
+
+                <TextView
+                    android:id="@+id/btsAnhui_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/btsAnhui"
+                    android:layout_toRightOf="@id/btsAnhui"
+                    android:maxLength="3"
+                    android:textColor="@color/numc"
+                    android:textSize="@dimen/cornerNumSize" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="@dimen/ProvinceWidth"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" >
+
+                <Button
+                    android:id="@+id/btsZhejiang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/provinceBackGround"
+                    android:text="@string/zj"
+                    android:textColor="@color/provinceColor"
+                    android:textSize="@dimen/Province" />
+
+                <TextView
+                    android:id="@+id/btsZhejiang_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/btsZhejiang"
+                    android:layout_toRightOf="@id/btsZhejiang"
+                    android:maxLength="3"
+                    android:textColor="@color/numc"
+                    android:textSize="@dimen/cornerNumSize" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="@dimen/ProvinceWidth"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" >
+
+                <Button
+                    android:id="@+id/btsJiangsu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/provinceBackGround"
+                    android:text="@string/js"
+                    android:textColor="@color/provinceColor"
+                    android:textSize="@dimen/Province" />
+
+                <TextView
+                    android:id="@+id/btsJiangsu_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/btsJiangsu"
+                    android:layout_toRightOf="@id/btsJiangsu"
+                    android:maxLength="3"
+                    android:textColor="@color/numc"
+                    android:textSize="@dimen/cornerNumSize" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btsHuanan"
+            android:layout_width="@dimen/areaWidth"
+            android:layout_height="@dimen/areaHeight"
+            android:layout_gravity="center_vertical"
+            android:background="@color/provinceBackGround"
+            android:text="@string/huanan"
+            android:textColor="@color/areaColor"
+            android:textSize="@dimen/Province" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/ProvinceHeight"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="@dimen/ProvinceWidth"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" >
+
+                <Button
+                    android:id="@+id/btsGuangdong"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/provinceBackGround"
+                    android:text="@string/gd"
+                    android:textColor="@color/provinceColor"
+                    android:textSize="@dimen/Province" />
+
+                <TextView
+                    android:id="@+id/btsGuangdong_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/btsGuangdong"
+                    android:layout_toRightOf="@id/btsGuangdong"
+                    android:maxLength="3"
+                    android:textColor="@color/numc"
+                    android:textSize="@dimen/cornerNumSize" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="@dimen/ProvinceWidth"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" >
+
+                <Button
+                    android:id="@+id/btsFujian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/provinceBackGround"
+                    android:text="@string/fj"
+                    android:textColor="@color/provinceColor"
+                    android:textSize="@dimen/Province" />
+
+                <TextView
+                    android:id="@+id/btsFujian_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/btsFujian"
+                    android:layout_toRightOf="@id/btsFujian"
+                    android:maxLength="3"
+                    android:textColor="@color/numc"
+                    android:textSize="@dimen/cornerNumSize" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="@dimen/ProvinceWidth"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" >
+
+                <Button
+                    android:id="@+id/btsHainan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/provinceBackGround"
+                    android:text="@string/hn"
+                    android:textColor="@color/provinceColor"
+                    android:textSize="@dimen/Province" />
+
+                <TextView
+                    android:id="@+id/btsHainan_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/btsHainan"
+                    android:layout_toRightOf="@id/btsHainan"
+                    android:maxLength="3"
+                    android:textColor="@color/numc"
+                    android:textSize="@dimen/cornerNumSize" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="@dimen/ProvinceWidth"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" >
+
+                <Button
+                    android:id="@+id/btsGuangxi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/provinceBackGround"
+                    android:text="@string/gx"
+                    android:textColor="@color/provinceColor"
+                    android:textSize="@dimen/Province" />
+
+                <TextView
+                    android:id="@+id/btsGuangxi_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/btsGuangxi"
+                    android:layout_toRightOf="@id/btsGuangxi"
+                    android:maxLength="3"
+                    android:textColor="@color/numc"
+                    android:textSize="@dimen/cornerNumSize" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btsHuazhong"
+            android:layout_width="@dimen/areaWidth"
+            android:layout_height="@dimen/areaHeight"
+            android:layout_gravity="center_vertical"
+            android:background="@color/provinceBackGround"
+            android:text="@string/huazhong"
+            android:textColor="@color/areaColor"
+            android:textSize="@dimen/Province" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/ProvinceHeight"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="@dimen/ProvinceWidth"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" >
+
+                <Button
+                    android:id="@+id/btsHubei"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/provinceBackGround"
+                    android:text="@string/hub"
+                    android:textColor="@color/provinceColor"
+                    android:textSize="@dimen/Province" />
+
+                <TextView
+                    android:id="@+id/btsHubei_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/btsHubei"
+                    android:layout_toRightOf="@id/btsHubei"
+                    android:maxLength="3"
+                    android:textColor="@color/numc"
+                    android:textSize="@dimen/cornerNumSize" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="@dimen/ProvinceWidth"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" >
+
+                <Button
+                    android:id="@+id/btsHunan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/provinceBackGround"
+                    android:text="@string/hun"
+                    android:textColor="@color/provinceColor"
+                    android:textSize="@dimen/Province" />
+
+                <TextView
+                    android:id="@+id/btsHunan_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/btsHunan"
+                    android:layout_toRightOf="@id/btsHunan"
+                    android:maxLength="3"
+                    android:textColor="@color/numc"
+                    android:textSize="@dimen/cornerNumSize" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="@dimen/ProvinceWidth"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" >
+
+                <Button
+                    android:id="@+id/btsHenan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/provinceBackGround"
+                    android:text="@string/hen"
+                    android:textColor="@color/provinceColor"
+                    android:textSize="@dimen/Province" />
+
+                <TextView
+                    android:id="@+id/btsHenan_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/btsHenan"
+                    android:layout_toRightOf="@id/btsHenan"
+                    android:maxLength="3"
+                    android:textColor="@color/numc"
+                    android:textSize="@dimen/cornerNumSize" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="@dimen/ProvinceWidth"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" >
+
+                <Button
+                    android:id="@+id/btsJiangxi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/provinceBackGround"
+                    android:text="@string/jx"
+                    android:textColor="@color/provinceColor"
+                    android:textSize="@dimen/Province" />
+
+                <TextView
+                    android:id="@+id/btsJiangxi_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/btsJiangxi"
+                    android:layout_toRightOf="@id/btsJiangxi"
+                    android:maxLength="3"
+                    android:textColor="@color/numc"
+                    android:textSize="@dimen/cornerNumSize" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btsDongbei"
+            android:layout_width="@dimen/areaWidth"
+            android:layout_height="@dimen/areaHeight"
+            android:layout_gravity="center_vertical"
+            android:background="@color/provinceBackGround"
+            android:text="@string/dongbei"
+            android:textColor="@color/areaColor"
+            android:textSize="@dimen/Province" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/ProvinceHeight"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="@dimen/ProvinceWidth"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" >
+
+                <Button
+                    android:id="@+id/btsLiaoning"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/provinceBackGround"
+                    android:text="@string/ln"
+                    android:textColor="@color/provinceColor"
+                    android:textSize="@dimen/Province" />
+
+                <TextView
+                    android:id="@+id/btsLiaoning_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/btsLiaoning"
+                    android:layout_toRightOf="@id/btsLiaoning"
+                    android:maxLength="3"
+                    android:textColor="@color/numc"
+                    android:textSize="@dimen/cornerNumSize" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="@dimen/ProvinceWidth"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" >
+
+                <Button
+                    android:id="@+id/btsJiling"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/provinceBackGround"
+                    android:text="@string/jl"
+                    android:textColor="@color/provinceColor"
+                    android:textSize="@dimen/Province" />
+
+                <TextView
+                    android:id="@+id/btsJiling_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/btsJiling"
+                    android:layout_toRightOf="@id/btsJiling"
+                    android:maxLength="3"
+                    android:textColor="@color/numc"
+                    android:textSize="@dimen/cornerNumSize" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" >
+
+                <Button
+                    android:id="@+id/btsHeilongjiang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/provinceBackGround"
+                    android:text="@string/hlj"
+                    android:textColor="@color/provinceColor"
+                    android:textSize="@dimen/Province" />
+
+                <TextView
+                    android:id="@+id/btsHeilongjiang_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/btsHeilongjiang"
+                    android:layout_toRightOf="@id/btsHeilongjiang"
+                    android:maxLength="3"
+                    android:textColor="@color/numc"
+                    android:textSize="@dimen/cornerNumSize" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="@dimen/ProvinceWidth"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/provinceBackGround"
+                    android:textColor="@color/provinceColor"
+                    android:textSize="@dimen/Province" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLength="3"
+                    android:textColor="@color/numc"
+                    android:textSize="@dimen/cornerNumSize" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btsXibei"
+            android:layout_width="@dimen/areaWidth"
+            android:layout_height="@dimen/areaHeight"
+            android:background="@color/provinceBackGround"
+            android:text="@string/xibei"
+            android:textColor="@color/areaColor"
+            android:textSize="@dimen/Province" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/ProvinceHeight"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="@dimen/ProvinceWidth"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:id="@+id/btsShannxi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/provinceBackGround"
+                        android:text="@string/shx"
+                        android:textColor="@color/provinceColor"
+                        android:textSize="@dimen/Province" />
+
+                    <TextView
+                        android:id="@+id/btsShannxi_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/btsShannxi"
+                        android:layout_toRightOf="@id/btsShannxi"
+                        android:maxLength="3"
+                        android:textColor="@color/numc"
+                        android:textSize="@dimen/cornerNumSize" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="@dimen/ProvinceWidth"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:id="@+id/btsGansu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/provinceBackGround"
+                        android:text="@string/gs"
+                        android:textColor="@color/provinceColor"
+                        android:textSize="@dimen/Province" />
+
+                    <TextView
+                        android:id="@+id/btsGansu_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/btsGansu"
+                        android:layout_toRightOf="@id/btsGansu"
+                        android:maxLength="3"
+                        android:textColor="@color/numc"
+                        android:textSize="@dimen/cornerNumSize" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="@dimen/ProvinceWidth"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:id="@+id/btsNingxia"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/provinceBackGround"
+                        android:text="@string/nx"
+                        android:textColor="@color/provinceColor"
+                        android:textSize="@dimen/Province" />
+
+                    <TextView
+                        android:id="@+id/btsNingxia_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/btsNingxia"
+                        android:layout_toRightOf="@id/btsNingxia"
+                        android:maxLength="3"
+                        android:textColor="@color/numc"
+                        android:textSize="@dimen/cornerNumSize" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="@dimen/ProvinceWidth"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:id="@+id/btsQinghai"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/provinceBackGround"
+                        android:text="@string/qh"
+                        android:textColor="@color/provinceColor"
+                        android:textSize="@dimen/Province" />
+
+                    <TextView
+                        android:id="@+id/btsQinghai_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/btsQinghai"
+                        android:layout_toRightOf="@id/btsQinghai"
+                        android:maxLength="3"
+                        android:textColor="@color/numc"
+                        android:textSize="@dimen/cornerNumSize" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/ProvinceHeight"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="@dimen/ProvinceWidth"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:id="@+id/btsXinjiang"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/provinceBackGround"
+                        android:text="@string/xj"
+                        android:textColor="@color/provinceColor"
+                        android:textSize="@dimen/Province" />
+
+                    <TextView
+                        android:id="@+id/btsXinjiang_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/btsXinjiang"
+                        android:layout_toRightOf="@id/btsXinjiang"
+                        android:maxLength="3"
+                        android:textColor="@color/numc"
+                        android:textSize="@dimen/cornerNumSize" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/provinceBackGround"
+                        android:textColor="@color/provinceColor"
+                        android:textSize="@dimen/Province" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLength="3"
+                        android:textColor="@color/numc"
+                        android:textSize="@dimen/cornerNumSize" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="@dimen/ProvinceWidth"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/provinceBackGround"
+                        android:textColor="@color/provinceColor"
+                        android:textSize="@dimen/Province" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLength="5"
+                        android:textColor="@color/numc"
+                        android:textSize="@dimen/cornerNumSize" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="@dimen/ProvinceWidth"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/provinceBackGround"
+                        android:textColor="@color/provinceColor"
+                        android:textSize="@dimen/Province" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLength="5"
+                        android:textColor="@color/numc"
+                        android:textSize="@dimen/cornerNumSize" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btsXinan"
+            android:layout_width="@dimen/areaWidth"
+            android:layout_height="@dimen/areaHeight"
+            android:background="@color/provinceBackGround"
+            android:text="@string/xinan"
+            android:textColor="@color/areaColor"
+            android:textSize="@dimen/Province" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/ProvinceHeight"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="@dimen/ProvinceWidth"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:id="@+id/btsChongqing"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/provinceBackGround"
+                        android:text="@string/cq"
+                        android:textColor="@color/provinceColor"
+                        android:textSize="@dimen/Province" />
+
+                    <TextView
+                        android:id="@+id/btsChongqing_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/btsChongqing"
+                        android:layout_toRightOf="@id/btsChongqing"
+                        android:maxLength="3"
+                        android:textColor="@color/numc"
+                        android:textSize="@dimen/cornerNumSize" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="@dimen/ProvinceWidth"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:id="@+id/btsSichuan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/provinceBackGround"
+                        android:text="@string/sc"
+                        android:textColor="@color/provinceColor"
+                        android:textSize="@dimen/Province" />
+
+                    <TextView
+                        android:id="@+id/btsSichuan_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/btsSichuan"
+                        android:layout_toRightOf="@id/btsSichuan"
+                        android:maxLength="3"
+                        android:textColor="@color/numc"
+                        android:textSize="@dimen/cornerNumSize" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="@dimen/ProvinceWidth"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:id="@+id/btsYunnan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/provinceBackGround"
+                        android:text="@string/yn"
+                        android:textColor="@color/provinceColor"
+                        android:textSize="@dimen/Province" />
+
+                    <TextView
+                        android:id="@+id/btsYunnan_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/btsYunnan"
+                        android:layout_toRightOf="@id/btsYunnan"
+                        android:maxLength="3"
+                        android:textColor="@color/numc"
+                        android:textSize="@dimen/cornerNumSize" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="@dimen/ProvinceWidth"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:id="@+id/btsGuizhou"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/provinceBackGround"
+                        android:text="@string/nz"
+                        android:textColor="@color/provinceColor"
+                        android:textSize="@dimen/Province" />
+
+                    <TextView
+                        android:id="@+id/btsGuizhou_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/btsGuizhou"
+                        android:layout_toRightOf="@id/btsGuizhou"
+                        android:maxLength="3"
+                        android:textColor="@color/numc"
+                        android:textSize="@dimen/cornerNumSize" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="@dimen/ProvinceWidth"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:id="@+id/btsXizang"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/provinceBackGround"
+                        android:text="@string/xz"
+                        android:textColor="@color/provinceColor"
+                        android:textSize="@dimen/Province" />
+
+                    <TextView
+                        android:id="@+id/btsXizang_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/btsXizang"
+                        android:layout_toRightOf="@id/btsXizang"
+                        android:maxLength="3"
+                        android:textColor="@color/numc"
+                        android:textSize="@dimen/cornerNumSize" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/provinceBackGround"
+                        android:textColor="@color/provinceColor"
+                        android:textSize="@dimen/Province" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLength="3"
+                        android:textColor="@color/numc"
+                        android:textSize="@dimen/cornerNumSize" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="@dimen/ProvinceWidth"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/provinceBackGround"
+                        android:textColor="@color/provinceColor"
+                        android:textSize="@dimen/Province" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLength="5"
+                        android:textColor="@color/numc"
+                        android:textSize="@dimen/cornerNumSize" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="@dimen/ProvinceWidth"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/provinceBackGround"
+                        android:textColor="@color/provinceColor"
+                        android:textSize="@dimen/Province" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLength="5"
+                        android:textColor="@color/numc"
+                        android:textSize="@dimen/cornerNumSize" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+	</LinearLayout>
+</LinearLayout>
